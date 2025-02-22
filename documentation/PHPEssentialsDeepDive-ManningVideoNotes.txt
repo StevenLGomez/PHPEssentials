@@ -1,0 +1,2275 @@
+
+1. Introduction
+Module 1.1 - Intruduction to PHP
+
+Hi everyone and a warm, heartfelt welcome to this comprehensive and engaging course
+dedicated entirely to PHP. I am genuinely
+thrilled and overjoyed to have the opportunity
+to connect with such a diverse and eager group
+of individuals who are here to learn and grow.
+I bring with me several years of hands-on
+experience, extensive knowledge and a deep-seated
+passion for PHP, a server-side scripting language
+that has stood the test of time and continues
+to be a powerful tool in web development.
+My journey with PHP has been both rewarding and illuminating and it is a privilege to
+be in a position where I can share the insights,
+techniques and best practices that I have garnered over the years with all of you.
+The world of PHP is vast and full of potential
+and together we will delve into its intricacies
+and rival its mysteries and equip you with the skills and understanding necessary to
+harness its power and bring your web development projects to life.
+I am eager to see the incredible things that
+you will accomplish with the knowledge you gain from this course.
+So with a heart full of excitement and a mind
+ready to dive into the world of PHP, I say
+to you all, let's embark on this educational adventure together.
+Without any further delays or hold-ups, let's
+kick-start this journey and begin our deep dive into the fascinating world of PHP.
+Welcome aboard!
+Alright, so first things first.
+
+Why learn PHP?
+PHP constitutes an important part of any
+website and we use it as a back-end language.
+Okay, so let's start with the introduction of PHP.
+First of all, let me tell you about the topics we'll discuss in this lecture.
+First we'll see why do we use PHP.
+Second we'll explore the specialities of PHP
+and why it is recommended for different levels
+and platforms and why it is generally spoken highly of.
+Then third we'll explore the requirements we should know before starting to use PHP.
+So with no further ado, let's begin.
+
+Alright so what is web-based scripting language?
+There are two types of web-based scripting language.
+One client-side script, two server-side script.
+Client-side script includes JavaScript, Ajax, VB script, Visual Basic script.
+Server-side script includes PHP, Python, Ruby, C++, Java.
+
+The main difference between client-side script
+and server-side script is that when the user
+browses a website on a system's desktop then
+the user is actually calling the function
+to the server and in response the server runs the complete file in the browser.
+Once the file is completely loaded it starts
+displaying results according to the browsing
+of the user through languages like HTML, CSS or JavaScript.
+But things in server-side script are slightly different.
+For example, when a user or a client performed
+a function on the browser the server receives
+the command and also runs a file and produces
+output within a server and the server only
+displays output to the user as a result of
+browsing which is quite a good thing because
+it decreases the chance of lag and consumes less time to show results.
+Now we will discuss about PHP which is our main purpose because it is related to the
+scripting language that's why we discussed the difference above.
+
+Now let's move on to the main topic.
+Alright so what is PHP?
+It is a hypertext preprocessor language.
+Many people can get confused as to what is a hypertext preprocessor.
+Actually PHP stands for Hypertext Preprocessor
+and its full form is Programming Hypertext Preprocessor.
+
+It was previously abbreviated as Personal Homepage.
+It is a programming language widely used for web applications or websites.
+It is a server-side scripting language imported
+with HTML to develop dynamic websites, static websites or web applications.
+When you learn more about PHP and practice
+it you will understand more about the actual meanings of this language.
+We all know that practical work is very important to understand anything properly.
+
+So to resume, PHP is used to create dynamic websites, web-based application software.
+For example WordPress is also based on PHP.
+
+What is a preprocessor?
+Preprocessor is a program that processes input
+data to produce output that is used as input to another program.
+The output is known to be a preprocessed form
+of output data which is often used by some subsequent program like compilers.
+There are many languages like Ruby, Java C++,
+Python but PHP is highly recommended because of different reasons.
+
+1.
+It is open source.  For example .NET is not open.  You have to pay for using some sort of functionalities.
+
+2.
+It is OOP.
+OOP stands for Object-Oriented Programming Language.
+If you are making big and dynamic websites
+which will be used widely, for this you will
+definitely need OOP because it shortens the
+program without affecting its functionality.
+So your website will work properly by using OOP.
+Other languages like Java, C++ and C# are also object orientated.
+
+3.
+It is cross-platform.
+It means it works on all kinds of operating systems like Windows, Linux and MacBook.
+I will show you its functionality in different
+operating systems in upcoming lectures.
+
+4.
+It works well with all servers.
+It has a benefit of running properly on local host as well as other servers.
+The market share of PHP increased from 74.8% to 79.2% from 2011 to 2021.
+So you can imagine by its growth that PHP is becoming a very useful language.
+Various websites like WordPress and Facebook are using PHP language.
+You can use PHP for different purposes like, 1.
+Content Management System.
+For example, software is used in hotels, restaurants,
+big industrial companies etc. are PHP based.
+2.
+Create Mail Server.
+You can create mail servers by using PHP.
+If you are working in a local company and you
+don't want to use Gmail, then you can create
+a mail server separately for a company by using PHP.
+3.
+Enterprise Resource Planning known as ERP.
+It is also like Content Management System.
+You can use PHP for it as a programming language.
+4.
+Ecommerce Website.
+Mostly PHP is used to create ecommerce websites.
+Alright, so here are some PHP backed website examples to get inspiration from.
+WordPress.
+Facebook.
+Wikipedia.
+Yahoo.
+Spotify.
+All these companies use PHP initially because
+PHP was one of the best languages in the initial tenor of programming.
+You must have extra knowledge about the following
+things before starting PHP which will help you in learning PHP.
+1. HTML.
+2. CSS.
+3. JavaScript.
+4. Personal Motivation.
+
+HTML and CSS is compulsory but JavaScript is optional.
+Some functions of PHP and JavaScript are similar.
+If you are good in JavaScript then it will help you a lot in understanding PHP.
+Personal motivation is also needed because
+sometimes you have to face errors in scripting
+and many people quit programming because they
+get demotivated by an access number of errors and find PHP very tough.
+That's why they give up and stop learning PHP because you have to remain motivated to
+learn PHP because it's very very cool and useful.
+In the next lecture we will discuss a few
+things we have to install first before diving deeper into the mechanics of PHP.
+
+Module 1.2 Installation of XAMPP SERVER
+
+Alright, so in this lecture we will talk about
+the software that we need for PHP and its role in PHP.
+Then we will start the installation process.
+Okay, so first of all we will need the code editor called Visual Studio Code which is
+actually a very popular editor used for coding.
+At this stage, if you don't even know about code
+editors then things might be confusing for you.
+We will open the operating system code in Google.
+We have to download it.
+
+https://www.apachefriends.org/download.html
+
+For Rocky 9
+
+sudo dnf -y update
+sudo dnf -y install libnsl wget
+
+Download latest package from apachefriends
+sudo chmod a+x xampp-linux-*-installer.run
+sudo ./xampp.......run
+
+click through installer dialog...  DO NOT LAUNCH YET!
+
+sudo vi /opt/lampp/etc/extra/httpd-xampp.conf
+add line ” Require all granted” and comment out or delete the line “Require local“.
+
+<Directory "/opt/lampp/phpmyadmin">
+    AllowOverride AuthConfig Limit
+    Require all granted      # << Change this line
+    ErrorDocument 403 /error/XAMPP_FORBIDDEN.html.var
+</Directory>
+
+sudo /opt/lampp/xampp --help
+
+sudo /opt/lampp/xampp start
+
+In Firefox (on VM), http://10.1.1.129  # The Welcome page should display.
+
+Create test.php in /opt/lampp/htdocs -> http://10.1.1.129/test.php
+
+sudo /opt/lampp/manager-linux-x64.run    -> starts dialog
+
+Create start script:
+mkdir ~/bin
+echo 'sudo /opt/lampp/manager-linux-x64.run &' > ~/bin/start-xampp.sh
+chmod +x ~/bin/start-xampp.sh~ 
+sudo ~/bin/start-xampp.sh
+
+Once XAMPP & web server sample sites are working, create ability to edit 
+local projects:
+sudo mkdir --parents /opt/lampp/htdocs/development/PHP-tutorial
+sudo chown developer:developer /opt/lampp/htdocs/development
+
+Now create index.html in /opt/lampp/htdocs/development
+Firefox URL: http://localhost/development/PHP-tutorial
+
+We will click on the download button.
+It will give us three options for different
+operating systems, i.e. Mac OS, Windows and Linux.
+So you can download this software according to the type of operating system.
+I've already downloaded it, that's why I will
+not download it again, but you must download
+this software if it is not already installed in your operating system.
+Because we will use this code editor to write
+and edit codes in the whole course of PHP.
+You will also find some useful extensions
+and sometimes the browser also detects which operating system you are using.
+Now we will download the software.
+Its downloading process is very easy, as you can see.
+Now we will download XAMPP Server.
+The question is, why do we need XAMPP Server?
+The answer is the following.
+We are building a website and before building
+websites we want to see how it will run in
+the browser and how it will be displayed in the browser.
+If we are working on backend, we store its data in the server because PHP is a server
+side language and we use server side language within a server.
+At present, because we don't have any server,
+we can use our operating system as a server by using XAMPP software.
+I have already downloaded it and you can download
+any version for any operating system from Google.
+After completing the downloading and installation process, open the XAMPP Server.
+Now we will open XAMPP Software.
+Our main concern is with Apache and MySQL.
+Sorry, I didn't tell you about MySQL before.
+MySQL is actually a database management system.
+There are actually two types, MySQL and SQL
+and both are very different from each other.
+SQL is for Microsoft.
+We will use MySQL because its integration and compatibility is very similar with PHP.
+That's why mostly MySQL is used for PHP language.
+If you see Node.js, we use other databases
+like MongoDB so there are different databases
+for every language which compatible and work best with the site.
+The PHP MySQL is the best.
+That's why we will use it.
+We will also download MySQL software and we will see our database management.
+Now we will click on the start button for Apache and MySQL.
+When Apache and MySQL shading turns green, it means they are properly working.
+There must be an issue if it doesn't turn green.
+To solve this issue, we will click on Config and open the first option.
+The notepad file will be opened.
+Scroll down to IP address and edit it to 8080 at the end.
+Then save it and close notepad.
+Now click on the start button of Apache or MySQL.
+It will start working.
+Now we will see folder flow of XAMPP.
+We will go to the folder, we will open the C drive and open XAMPP.
+You will see a lot of files.
+Ignore all of them except HT docs.
+Always remember this folder when you are using XAMPP.
+You will face issues if you make and store PHP files here.
+For avoiding this issue, you can create a separate folder.
+I've already created a folder called PHP 2Trial.
+So I will not create it again.
+I will just open it with VS code.
+You have to use open speech Mark hyphen open
+speech Mark or create it with space in folder name.
+If you don't use open speech Mark hyphen open
+speech Mark, then your file will not run and no file will appear in the local host.
+Because in the URL, we will never find any space.
+It will include symbols or full statement.
+Now we will open PHP tutorials folder and
+we will create first file first PHP file dot PHP.
+The use of the PHP extension is necessary because
+in Java or C++ we also use their extensions.
+If we don't use dot PHP, our file will not be saved in PHP.
+Now we will open the first file and use syntax
+left arrow question Mark PHP and then add echo
+hello world and then add question Mark space right arrow.
+Now we will save the file.
+Now to run this file, we will go to browser and browse local host
+dashboard, then page will be opened, then click on PHP admin.
+Now you will see all your databases.
+We can also create a database by giving the command in the SQL tab.
+Now we will try to run our file local host PHP
+tutorials first PHP file dot PHP in the browser.
+Now we can see hello world is displayed.
+Now if we open the file and replace hello
+world with hello everyone, then save the file and refresh the browser.
+We will see hello everyone is displayed in the browser.
+It is the basic thing of our lecture to see how to run our file browser.
+In this lecture, we discussed about the installation of VS code and xampp server.
+If you are facing any issues in xampp server, and you can contact me for guidance.
+I'll explain you how to solve the issue.
+Generally, you will not face any other issues.
+If you just go to config and add numbering 8080, the issue will be resolved.
+Remember that you should install the software
+in an operating system that you are using for programming.
+Thank you. 
+
+Module 1.3 - PHP Syntax
+
+In this lecture, we will explore a little
+bit more about the syntax of PHP to find its meaning.
+Let's just move on to the lecture.
+In PHP, there are two ways to print a statement.
+Number one, by using echo.
+Number two, by using print.
+Most professional developers recommended echo because it is faster than print.
+I will show you both ways.
+Then if we write a code echo hello everyone
+and go to browser, then hello will be displayed in the browser.
+If we write a code, print hello everyone and
+then go to browser, hello will be displayed in the browser.
+Oh, sorry, there is a one written after the PHP tag.
+That's why there is a one printed after the sentence.
+Okay, you can try things like deleting everyone
+or changing echo with print or stuff like that.
+So, both used to display output data on the screen.
+There is a minor difference between these two.
+Echo has no return value, but print has a return value of one.
+So it can be used in expressions.
+Echo can take multiple parameters while print can take one argument.
+Now we will discuss about how we can distribute
+our statements and by that, I mean how we can print our statements.
+We can have the following ways to print a statement.
+Number one, left arrow question Mark, PHP,
+echo, speech Mark, meta brains, speech Mark, semi colon, question Mark, right arrow.
+Number two, left arrow question Mark, PHP, echo, open bracket, single quotation, meta
+brains, single quotation, close bracket, semi colon, question Mark, right arrow.
+Number three, left arrow question Mark, PHP,
+echo, single quotation, meta brains, single
+quotation, semi colon, question Mark, right arrow.
+Number four, left arrow question Mark, PHP,
+echo, single quotation, meta, single quotation,
+comma, single quotation, brains, single
+quotation, semi colon, question Mark, right arrow.
+The first three statements will print a sentence,
+whereas the fourth statement, the code is multiplied in strings.
+Meta is one string and brain is another one.
+Only if you use echo, this statement will work.
+But if we use print, it will cause an error
+because this statement doesn't work in print.
+If we use dot in a code, for example, left arrow
+question Mark, PHP, echo, single quotation,
+meta, single quotation, dots, single quotation,
+brains, single quotation, semi colon, question Mark, right arrow.
+The dot is used as a concatenation.
+Concatenation is used to differentiate two statements.
+We can also use HTML in PHP.
+For example, you can write this code.
+Okay, I'm trying to write what I want.
+I'm sorry, I take a little bit of time.
+Okay, the code is this one.
+Left arrow question Mark, PHP, echo, quotation Mark, left arrow, H2, right arrow.
+Hello everyone.
+Left arrow forward slash H2, right arrow, quotation Mark, question Mark, right arrow.
+This statement will also work and hello everyone will be displayed in the browser.
+If we use the following statement, left arrow
+question Mark, PHP, echo, quotation Mark, left arrow, I, right arrow.
+Hello everyone.
+Left arrow forward slash I, right arrow, quotation
+Mark, semi colon, question Mark, right arrow.
+Then the font size will be small and in italic form.
+Now if we use HTML syntax in PHP and paste the
+above statement in it, then it will display
+the same result in the browser because we
+are using the extension of PHP, which is dot PHP in file.
+That's why this HTML syntax will be considered as PHP.
+If you want to print any number, then you don't have to use comments.
+For example, for left arrow question Mark,
+PHP, echo, 50444, semi colon, question Mark, right arrow.
+This will work and 50444 will be displayed in browser.
+
+2. Data Types, Variables & Operators
+Module 2.1 - Data Types
+
+In the previous lectures we saw what are variables.
+We also introduced PHP and saw the uses of
+syntax in PHP. In this lecture we will see which kind of data types we can use in PHP.
+If we are talking about data types, let me tell
+you that the coding between PHP and JavaScript
+are very similar except for the syntax. Why?
+Because both are scripting languages. The
+difference is that JavaScript includes front-end
+scripting and PHP includes back-end scripting,
+but scripting is common in both languages. As I've already told you, only syntax will
+change. Then the rest of the code is the same
+as JavaScript. We will use the following code.
+Left arrow question Mark, PHP, dollar sign, A equals quotation, meta
+brains quotation, semi colon, echo, dollar, A, question Mark, right arrow.
+We can use print and echo, but we will use echo
+because it is faster than print. Now we will
+save the code and meta brains will be displayed
+in the browser. The quotation is a data type. For
+example, in the variable that we used in the
+code, we wrote meta brains. That means that
+the variable is a string. When we are writing
+something in quotation marks, it is kind of
+a string. If you have reached to this stage of PHP, you would know why and how all of
+these things are used. There are different types of data types. String data type. This
+code is the string statement. Left arrow question
+Mark, PHP, forward slash forward slash string,
+dollar sign, A equals quotation, meta brains
+quotation, semi colon, echo, dollar sign, A,
+question Mark, right arrow. And we printed the statement meta brains. Now the question
+is how can we recognize string? For this purpose,
+we will use the following code. Left arrow
+question Mark, PHP, dollar sign, A equals quotation,
+meta brains quotation, semi colon, echo, dollar
+sign, A, very dump, open bracket, dollar sign,
+A, close bracket, semi colon, question Mark,
+right arrow. When we will enter this code, the string will be displayed in the browser
+as follows. Meta brains, string brackets, 11,
+meta brains, 11 showing the number of letters
+in the string. There are 10 elements in the sentence, but the first value is assigned
+a zero and also counted as an element. That is why it is showing 11. If we add one more
+s meta brains, now it will show string in
+brackets 12. Second data type is number data
+types. The following is number statement dot
+left arrow question Mark, PHP, forward slash
+forward slash number, dollar sign B equals
+4782, semi colon, echo, dollar sign B, question
+Mark, right arrow. And we printed the statement
+4782. So now we have the same question then
+for the string data type. How can we know if it's a string or not? For this, we will
+also use var underscore dump in brackets,
+dollar sign B brackets. Now we will save the
+code and int brackets 4782 will be displayed
+in the browser. int means number. Now if we
+add a value with points, ie 4782.55, now it will be displayed in the browser as float
+in brackets 4782.55. Now if you use numbers in quotation marks, for example, quotation
+47832.55 quotation, and if you save the code,
+it will be displayed as string in browser.
+The third data type is boolean. The code is
+the following one. Left arrow question Mark,
+PHP forward slash forward slash, boolean, dollar
+sign B equals quotation true quotation, semi
+colon, echo, dollar sign B, question Mark,
+right arrow. Now if we print this statement,
+it will be displayed as followed in the browser.
+Meta brains 4782.55, one, bool in brackets
+true. If we write false in a code instead of true, then bool in brackets false will
+be displayed in the browser. The fourth data
+type is related to array, which is mostly
+used in PHP. The code about array are the following
+one. Left arrow question Mark, PHP, forward
+slash forward slash, ARR a y, dollar sign A equals ARR a y, open brackets, quotation,
+PHP quotation, comma, quotation, my SQL quotation,
+comma, quotation, Java quotation, close bracket,
+semi colon, echo, dollar sign, a square open
+bracket, one square close brackets, question
+Mark, right arrow. Array is used to give multiple
+data in one time. You can put as much data
+as you want inside. When you want to print it, you need to specify which element you
+want to display. So when you call the array,
+you need to add open square brackets, close
+square brackets with the position of the element
+you want. Now if we save the code, it will
+show my SQL and array because in programming,
+values start at zero. Now if we change the
+code and write zero instead of one as follows,
+left arrow question Mark, PHP forward slash
+forward slash ARR a y, dollar sign A equals ARR
+a y, open brackets, quotation, PHP, quotation,
+comma, quotation, my SQL quotation, comma, quotation, Java quotation, close brackets,
+semi colon, echo, dollar sign a open square
+brackets, zero, close square brackets, question
+Mark, right arrow, then it will show PHP in
+browser. Like this, if we write two, it will
+show Java in the browser. We will also explore
+the concept of array more widely in upcoming
+lectures. The fifth data type is null data types. We use the following code left arrow
+question Mark, PHP forward slash forward slash
+null, dollar sign B equals null, semi colon,
+echo, dollar sign B, question Mark, right
+arrow. Now if we print this statement, null will
+be displayed in the browser. We use the value
+null because the value null represents the
+intentional absence of any object value. If something will be found in a value, then it
+will be printed. Otherwise, it will display as null in the browser. For example, when
+we are submitting some online form, which also requires some compulsory information.
+If we submit the form without filling it in,
+then it shows as an error. These two concepts,
+the form filling and null data type are mutually
+combined because in form filling, it is error
+due to requirements, but in null data type, it is due to absence of any value. So when
+you don't fill some field of a form, the value
+will be null. Of course, it doesn't work for
+the mandatory field, like name in our example.
+So this was our lecture about important data
+types. Of course, there are more data types
+available in PHP. I'll let you go to the next. 
+
+Module 2.2 - Constant Variables
+
+So, in our last lecture we discussed about
+variables. As you can see, I already created
+and called a file of constant variable. We have seen string data types in the previous
+lecture. So, let's start this lecture and learn more about variables.
+Now we will see different types of variables.
+Constant variable is a type of variable.
+Constant variable means that we want to use one value again and again. We will discuss
+about how we can do its entry and we will also
+discuss advanced level of constant variable
+like how we can assign three things multiple times.
+We will call the function define. After using
+define we will assign a name of the variable.
+For example, number. We will write the following
+code. Define (quote) num (quote) comma.
+7 5 0 comma. True. Close bracket.
+Okay, so let me explain this code. In the
+function, num represents the name of the variable.
+And 750 is the value that we want to assign to the variable. Until now, the process is
+correct. The third value is case sensitive. For now, let's just remove it. I will show
+you its main use later. As you can see, you are not using the dollar sign. The reason
+is when we are using constant variables, there is no need to use dollar sign.
+Now if we write the following code. Left arrow,
+question Mark, PHP forward slash forward slash
+string define open bracket quotation num quotation
+comma 750 close bracket semicolon echo num
+semicolon question Mark right arrow then 7 5 0 will be displayed in the browser.
+Now we change the alphabet of num from lowercase
+n to a capital N in the following define open
+brackets quotation num quotation comma 750 close
+bracket. For example, the new code is define
+open brackets quotation capital N um quotation
+comma 750 close brackets semicolon. Now if we
+save the code and see in browser, the arrow
+will be occurred and no result will be shown
+because PHP is case sensitive language. This
+means that PHP makes a difference between
+capitals and lowercase. Now I want to tell you
+a very informative thing. If you see an old
+PHP videos of someone who explained constant
+variables, he would also use case sensitive.
+For example, true and false. In old versions,
+when we use true like this define open brackets
+quotation lowercase num quotation comma 750 comma true close bracket semicolon.
+If we use this code, no error occurred due to
+case sensitive code and define open brackets
+quotation num quotation comma 750 comma false
+close brackets semicolon. If we use this an error
+code occurred in case sensitive code, but in
+current version, it is depreciated in PHP. It
+means it is not included in PHP. In the current
+version, PHP error will occur either when we use
+true or false. In the previous versions, PHP
+automatically understands where and which variable
+is defined. It's in the current version, it is
+removed. So we did not need to learn about it.
+It is the benefit of constant variable that we can
+call one function without using any sign easily.
+You can also call it multiple times by using the following code.
+Left arrow question Mark PHP forward slash forward slash string define open brackets
+quotation num quotation comma 750 close bracket
+semicolon echo num dot quotation left arrow b r
+right arrow quotation semicolon dollar sign
+addition equals num star 70 echo dollar sign
+addition question Mark right arrow. Let's take a
+bit of time to understand the code. So you already
+know the function define. After that we use echo
+to display num. Then we want to create another
+variable called addition with a symbol dollar
+because it's a variable and not a constant variable.
+Addition will be equal to num multiples with 70.
+At the end, we call echo to display addition,
+we add quotation Mark dot left arrow b r right
+arrow quotation Mark to display the next value
+on another line. Now if we save the code, the
+browser will display the following results
+750 525 00. It means we assigned 750 values to
+the number. Now if I want to use this variable
+anywhere else, we can easily do this like we
+just did. So this was our lecture about constant
+variables. In the next lecture, we will see other
+functions and we will discuss operators which can be used in PHP.
+So. 
+
+Module 2.3 - Arithmetic Operator
+
+In this lecture, we will start the section
+about operators. We will discuss what arithmetic
+operators are and how we can use them. Once
+again, if you already have basis in JavaScript,
+it will be easier for you to understand operators.
+But don't worry, if you don't know anything
+about JavaScript, you will still be able to learn about operators. Just in case someone
+didn't understand, I am using examples for their
+better understanding of operators. Obviously,
+the more you practice and study, the easier
+PHP will be. In arithmetic operator, we have
+eight types of operators, which the following
+addition plus sign subtraction minus sign
+multiplication star exponentiation star star
+division forward slash modulus percentage
+increment plus plus decrement minus minus. Exponentation and modules are a little bit
+tricky, but all other operators are very easy.
+Increment and decrement are also very easy.
+In increment, one number increases and in
+decrement, one number decreases. For example,
+we will use the dollar sign to define a variable
+called x and assign it to the value 20. Then
+I will copy and paste this line and change to a with 10 and x with y. The code is the
+following dollar sign x equals 20 semicolon dollar sign y equals 10 semicolon. Now we
+want to call these values. For this, we will
+use variable z as follows, depending on which
+operator we want to use example of arithmetic
+operator addition, z will be the result of
+the addition between x and y. Left arrow question
+Mark, PHP dollar sign x equals 20 semicolon
+dollar sign y equals 10 dollar sign z equals
+dollar sign x plus dollar sign y semicolon
+echo dollar sign z semicolon question Mark
+right arrow. Now if we save the code, it will
+display the result 30 in the browser because we
+use the addition operator in the code. Example
+of arithmetic operator subtraction. We will use the same code, we would just change the
+operator to do subtraction. Left arrow question
+Mark, PHP dollar sign x equals 20 semicolon
+dollar sign y equals 10 dollar sign z equals
+dollar sign x minus dollar sign y semicolon
+echo dollar sign z semicolon question Mark
+right arrow. Now this code will show the result
+10 in the browser. Example of arithmetic operator
+multiplication. Left arrow question Mark, PHP
+dollar sign x equals 20 semicolon dollar sign
+y equals 10 dollar sign z equals dollar sign
+x star dollar sign y echo dollar sign z semicolon
+question Mark right arrow. Now this code will
+show the result 200 in our browser. Example of arithmetic operator exponentiation. Left
+arrow question Mark, PHP dollar sign x equals
+20 semicolon dollar sign y equals 10 dollar
+sign z equals dollar sign x star star dollar
+sign y semicolon echo dollar sign z semicolon
+question Mark right arrow. Now this code will
+show the result 1024 000 000 in the browser.
+It means our value will exceed three times.
+Simply it means 20 multiplied by 20 ten times.
+Twenty is our base number and ten is our exponent
+value. That's why it is called exponentiation.
+If you change x with ten and y with two it will calculate ten exponent two which means
+ten times ten. Example of arithmetic operator
+division. Left arrow question Mark, PHP dollar
+sign x equals 10 semicolon dollar sign y equals
+five dollar sign z equals dollar sign x forward
+slash dollar sign y semicolon echo dollar sign
+z semicolon question Mark right arrow. Now this
+code will show the result five in browser.
+Now let's move on to the modulus. For modulus
+we will go to the presentation for a better understanding. We have already studied this
+division method in school time a lot. For
+example if we divide the dividend seven with
+divisor two we will get quotient three and
+remainder one. The remainder is called modulus.
+So when you do a modulus you actually do a
+division and display the rest of the division.
+Example of arithmetic operator modulus. Left
+arrow question Mark, PHP dollar sign x equals
+ten semicolon dollar sign y equals two semicolon
+dollar sign z equals dollar sign x percentage
+dollar sign y semicolon echo dollar sign z
+semicolon question Mark right arrow. Now this
+code will show the result modulus zero in browser. This is because ten divided by two
+is equal to five and doesn't have a remainder.
+Another example of arithmetic operator modulus.
+Left arrow question Mark, PHP dollar sign x equals one three semicolon dollar sign y
+equals two semicolon dollar sign z equals dollar
+sign x percentage dollar sign y semicolon echo
+dollar sign z semicolon question Mark right arrow. Now it will show the result modulus
+one in browser because thirteen divided by two is equal to six plus one. The remainder
+is equal to one. Example of arithmetic operator
+increment. Left arrow question Mark, PHP dollar
+sign x equals thirteen semicolon dollar sign
+y equals two semicolon dollar sign z equals
+dollar sign x plus dollar sign y plus plus
+semicolon echo dollar sign z semicolon question
+Mark right arrow. It means we are adding three
+in thirteen instead of two due to the use of increments. Now this code will show the
+result sixteen in the browser. Another example
+of arithmetic operator increment. Left arrow
+question Mark, PHP dollar sign x equals ten
+semicolon dollar sign y equals two semicolon
+dollar sign x plus plus semicolon echo dollar
+sign x semicolon question Mark right arrow. Now this code will show the result eleven
+in the browser. Then change the two plus with
+two minus. That's called decreasing. If you
+refresh your browser you will have nine displayed
+because ten minus one is equal to nine. Thanks
+a lot. I hope the concept of operators is clearer now.
+It's actually the same way as if it was done on paper. 
+
+Module 2.4 - Assignment operator
+
+In this lecture we will study about assignment operators.
+Professionals don't use them widely, but if you
+want to use them then there is no issue at all.
+Mostly comparison operators are used in PHP.
+We will discuss about them in the next lecture.
+You should know what assignment operators are and how we can use them.
+Assignment operators are also slightly similar
+to arithmetic operators, but in assignment operators we also use equals.
+For example, equals plus equals, minus equals,
+percentage equals, star equals, forward slash equals.
+Now we will see how we can use them.
+Let's suppose we assign the value 5 to a variable called num.
+For example, we use the assignment operator equals, the operation is num equals 5.
+The result will be equivalent to num equals 5.
+If we use assignment operator plus equals, the operation is num plus equals 5.
+The result will be equivalent to num equals num plus 5.
+As we have assigned value 5 to the num above,
+now the calculation will be num equals 5 plus 5, num equals 10.
+The final result will be 10.
+It's the same principle with minus equals.
+num minus equals 5 is the same as num equals num minus 5.
+If we use assignment operator star equals, operation is num star 5 equals 5.
+The result will be equivalent to num equals num star 5.
+As we have assigned value 5 to the num above,
+now the calculation will be num equals 5 star 5, num equals 25.
+So the final result will be 25.
+Division and modulus both will also work like other assignment operators.
+So num forward slash equals 5 is the same as
+num equals num forward slash 5, which will be 0 in our case.
+Let's just move on to the VS code for better understanding.
+I'm using the concept of the previous lecture
+I've just taught you on how to use assignment operators in VS code.
+The use of these operators is very easy and faster.
+Let's try it in a code.
+Left arrow question Mark, PHP, dollar sign
+x equals 10, semicolon, dollar sign y equals
+2, dollar sign x plus equals dollar sign y, semicolon,
+echo, dollar sign x, semicolon, question Mark right arrow.
+The meaning of the code is 2 will be added to
+10 and 12 will be displayed in the browser.
+Now we will save the code and go to the browser.
+We can clearly see that 12 is displayed in the browser
+and it means operations in code are working properly.
+You can try the numbers you want.
+For example, we can change 10 and write 15 instead.
+The result will be 17 because we add 2 to 15.
+For example, if we use assignment operator minus equals left arrow question Mark, PHP,
+dollar sign x equals 15, semicolon, dollar sign y equals 2, dollar sign x minus equals
+dollar sign y, semicolon, echo, dollar sign x, semicolon, question Mark right arrow.
+The meaning of the code is x and y have their
+separate values and the value of y will be subtracted to x.
+The final result will be displayed in the
+browser which is 13 as you can see on my screen.
+Example if we use assignment operator star
+equals left arrow question Mark, PHP, dollar
+sign x equals 15, semicolon, dollar sign y
+equals 2, semicolon, dollar sign x star equals
+dollar sign y, semicolon, echo, dollar sign x, semicolon, question Mark right arrow.
+The meaning of the code is x and y have their
+separate values and the value of x will be
+multiplied by y and the final result will be displayed
+in the browser which is 30 as you can see on my screen.
+Example if we use assignment operator percentage
+equals left arrow question Mark, PHP, dollar
+sign x equals 15, semicolon, dollar sign y
+equals 2, semicolon, dollar sign x star equals,
+dollar sign y, semicolon, echo, dollar sign x, semicolon, question Mark right arrow.
+Okay now that you know how modulus works here
+we are doing 15 modulus 2 which will be 1.
+Now change the modulus with star star it will
+display the result of 15 exponent 2 which. 
+
+Module 2.5 - Logical operators
+
+In this lecture we will discuss about one part
+of our operators which is logical operators.
+It is also an operator like assignment and comparison operators, but logical operators
+are widely used because we have to use them for checking statements multiple times.
+There are 6 logical operators 1 and 2 or 3 xor, 4 expressed as ampersand ampersand, 5
+or expressed as a single vertical bar, 6 not expressed as two vertical bars.
+You can use any of the above signs to run statements.
+No error will be occurred there because they are similar to each other.
+Our first operator is operator.
+In this operator we have two statements, but
+in if statement we only have one statement which was a > or = b.
+But by using the and operator we will run our statement by applying two conditions.
+In an operator both conditions must be true.
+If both conditions are true then the code of the if statement will run otherwise the
+result will be false even if one condition is fulfilled.
+Our second operator is the or operator.
+We use the or operator because in this operator
+if one condition is fulfilled the statement will run.
+It is not like the and operator, only the fulfillment
+of one condition is enough to run the code.
+Even if both conditions will be fulfilled the code will run.
+The statement will only be false when both conditions are not fulfilled.
+Our third operator is the not operator.
+We can only apply one condition in the not operator.
+When we use not operator we get opposite results.
+For example if the condition is true then it will show
+false result and if condition is false it will show true.
+For example we run a statement a > b.
+In this statement if a > b the statement will be
+true but not operator will show false statement result.
+If an above statement b > a generally this
+statement is false but not operator will turn
+it into a true statement even in false condition.
+The last one is the xor operator.
+Two conditions are used in xor operator like with the and operator.
+The xor operator is a combination of operator and not operator.
+If both conditions are true then it will show a false result.
+It will also show a false result when both conditions are false.
+Xor operator show us true result only in one condition.
+When one condition is true then one condition is false.
+Now we will use logical operators in vs code file for better understanding.
+Now we will use an if else condition because we want to run two conditions.
+The first one when the statement is true and
+the second one when the statement is false.
+So let's write a code to clear this up.
+Next arrow question Mark PHP $num = 20;
+If $num right arrow = 18 ampersand ampersand
+$num left arrow = 21 $num right arrow = 20;
+Because both conditions are true the browser
+is displaying the result statement is true
+because 20 is greater than 18 and 20 is less than 21.
+So both conditions are fulfilled.
+Now if we write 22 instead of 18 in first
+condition and replace 21 with 36 then the browser
+will show the result statement is false because
+both of the conditions must be fulfilled to display statement is true result.
+Ok perfect now replace 22 with 18.
+The statement is true sentence is displayed because both conditions are fulfilled.
+Then change the second condition with 18.
+There is a problem of logic.
+Of course there is no number greater than 20 and less than 18.
+The result will be false of course.
+Now if we use the or operator with this code.
+Left arrow question Mark PHP $num = 20; If open bracket $num right arrow = 20;
+Open curly bracket echo quotation statement is
+true quotation semicolon close curly bracket
+else open curly bracket echo quotation statement
+is false quotation semicolon close curly bracket question Mark right arrow.
+As we know one condition must be right to print true statement in or operator.
+So here both conditions are fulfilled because 20 is greater or equal to 20.
+That's why statement is true will be printed in the browser.
+Now if we write 26 in the first condition
+instead of 20 the else statement will be printed because both conditions are false.
+If we use x or operator left arrow question Mark PHP
+$num = 20; If open bracket $num right arrow = 26; x or $num left arrow = 18;
+Open curly bracket echo quotation statement is
+true quotation semicolon close curly bracket
+else open curly bracket echo quotation statement
+is false quotation semicolon close curly bracket question Mark right arrow.
+Now false statement will be printed because
+when both conditions are false in x or operator
+a false result will be printed in the browser.
+Both conditions are false because 26 is not greater than 20 and 20 is not less than 18.
+As we know if both conditions are true or
+both conditions are false then false statement
+will be printed but there is only one case when true statement will be printed.
+If only one condition in x or operator will be true.
+So if we write 20 instead of 26 in first condition
+then one condition will be true and due to
+the x or operator a true statement will be printed in the browser.
+X or operator can be used at advanced level.
+Now if we use the not operator left arrow question Mark PHP dollar sign num = 20;
+If open bracket exclamation Mark open bracket
+dollar sign num right arrow = 20 close bracket
+close bracket open curly bracket echo quotation statement
+is true quotation semicolon close bracket else open curly bracket quotation statement
+is false quotation semicolon close curly bracket question Mark right arrow.
+Now if the condition is true then it will show a false
+result and if the condition is false the result will be true.
+Now this condition is true because 20 is equal to 20.
+It means that the false statement will be printed in the browser.
+Now if we write 100 in the condition instead
+of 20 then this condition will be false and
+it will show the true result in the browser.
+So the else statement is not tough yet.
+We just have to apply a condition to print
+the result we want when if statement is true or false.
+So.
+[. 
+
+3. Basics of PHP
+Module 3.1 - If statement
+
+In our recent lecture, we discussed about
+how to use comparison operators. We used them
+and cleared all concepts related to comparison
+operators. After comparison operator, we will
+study about logical operators, but before moving to the logical operators, we should
+know about statement, which is if statement.
+If statement is widely used in these operators
+because we have to apply conditions in these
+operators. Now, let's just move to the main
+point without wasting time. We will discuss about how to use the if statement.
+First, let me tell you one thing. In if statement,
+we apply two conditions, whether it will be
+true or false. So, the if will check if the condition is true or false. If it's true,
+it will execute the statement inside the if condition. If it's false, it will not. For
+example, we will declare variables. Left arrow,
+question Mark, PHP, dollar, A, equals 5, 5,
+semicolon, dollar sign B equals 20, semicolon,
+question Mark, right arrow. We will make an
+if statement here. We will call the if function
+and apply a condition here. You need to use
+three equals in the condition if you want to compare the value and the data type. So,
+we're going to try if A equal to B. The code
+will be this one. Left arrow, question Mark,
+PHP, dollar sign A equals 55, semicolon, dollar
+sign B equals 20, semicolon. If, open brackets,
+dollar sign A equals equals equals, dollar
+sign B, closed bracket, open curly brackets,
+echo, quotation A is equal to B, left arrow B are right arrow, quotation, closed curly
+bracket, echo, quotation statement false, quotation,
+question Mark, right arrow. So, in this code,
+A is not equal to B. So, the program will not
+enter the if statement because the condition
+is false. Instead, it will just keep running the
+statements after the if statement. We wrote an
+echo function to display statement is false. In
+the browser, you can see that this sentence is
+displayed. That's because the code skipped the
+if statement because the if condition is false.
+If you put the if statement in comment, the same
+result will be displayed because the code didn't
+enter in the if statement. Let's change the
+value of B with 55. If you compile the program,
+it will display A is equal to B and statement
+is false. That means that the condition is true.
+So, the program enters in the if statement and
+executes the code inside. But inside the if
+statement, we have an echo. So, this echo will be
+displayed. But it's not over. At the end of the
+if statement, the program will keep running
+the rest of the code. After the if statement,
+we directly have another echo. Statement is false.
+That's why we have two sentences displayed in the
+browser. Now, if we change the code and write
+the following one, left arrow, question Mark, PHP dollar sign A equals 55, if, open
+brackets, dollar sign A equals equals equals,
+dollar sign B, close brackets, echo, quotation
+A is equal to B and it's data type, quotation,
+close curly bracket, echo, quotation statement
+false, quotation, question Mark, right arrow.
+Now, A is equal to B and it's data type will
+be displayed in the browser. If we use inverted
+commas in dollar sign B equals quotation 55,
+quotation, then it will become a false statement
+because their value is equal, but data type
+is not equal. In fact, 55 and semi quotation,
+55, semi quotation is not the same. But if you delete one equal sign in the condition,
+you will then just compare the value. Now try
+it. You can see the sentence is displayed.
+So it worked. You can also use greater than or less than in condition. For example,
+let's write this code. Left arrow, question
+Mark, PHP, dollar sign A equals 55, semi colon,
+dollar sign B equals 55, semi colon, if, open
+bracket, dollar sign A, right arrow equals,
+dollar sign B, close bracket, open curly bracket,
+echo, quotation, A is greater than or equal to B,
+quotation, close curly bracket, echo, quotation
+statement false, quotation, question Mark,
+right arrow. A is equal to B. So the statement is
+correct. And A is greater than or equal to B will
+be displayed in the browser. If we change the
+value of B to 56, then it will be a false statement
+and statement false will be displayed in the
+browser, because B is greater than a. In the
+next lecture, we will study about the else
+statement and logical operators. And we will
+discuss about how to use them. But before ending
+this lecture, I want to show you one more method
+of writing an if statement, you can delete the
+embraces of the if statement and replace them with
+colon and close the if with end if I will write
+an example for a better understanding. Left arrow,
+question Mark, PHP, dollar sign A equals 55,
+semi colon, dollar sign B equals 55, semi colon,
+if open brackets, dollar sign A, right arrow
+equals dollar sign B, close bracket, colon,
+echo quotation A is greater than or equal to B
+quotation, end if semi colon, echo, quotation,
+statement false, quotation, question Mark, right
+arrow. If you add this code, the statement will
+be printed as it was printed before. Look, if I
+change B to 55, it will display the echo sentence
+of the if statement. You can also print statements
+multiple times by just copying and pasting the
+echo statement. If you practice it again and again,
+you will easily tackle concepts in less amount of time.
+[. 
+
+Module 3.2 - If Else If Statement
+
+In this lecture we will learn about if statement.
+We will also discuss an advanced topic which
+is the if else statement. We already know what an if
+statement is. We will just learn about the else statement.
+As you can see we make a condition. We also witness that if the if statement was true
+then statement inside the brackets of the if condition was printed and when if the if
+statement was false then the else statement
+was printed. By the else statement I'm talking
+about the condition after the if statement.
+With the if else statement you can do multiple
+condition. For example you can use three else
+if with each different condition and then an else statement. If all the if statements
+are false then the else condition will be displayed.
+So let's move to the main purpose. You mostly
+saw grade systems of students according to
+their marks in different categories. This is
+something we can do with an if else statement.
+We will use the code left arrow question Mark
+PHP. We will use the number dollar sign number
+equals 88 semicolon. Now we will make a condition.
+If open bracket number right arrow equals 90 ampersand ampersand dollar sign number
+left arrow equals 100 close bracket open curly
+bracket. Now we will print statement using echo.
+Echo quotation student got a plus quotation.
+Now we will not use an else statement. We
+will use else if statement close curly bracket
+else if open bracket close bracket and we will write the condition on the else if in
+bracket. We will use the following code. Left
+arrow question Mark PHP dollar sign number
+equals 88 semicolon. If open bracket number
+right arrow equals 90 ampersand ampersand dollar
+sign number left arrow equals 100 close bracket
+open curly bracket echo quotation Mark student
+got a plus quotation close curly bracket. Else
+if open bracket dollar sign number right arrow
+equals 80 ampersand ampersand dollar sign number left arrow equals 90 close bracket
+open curly bracket echo quotation student got
+a quotation close curly bracket else if open
+bracket dollar sign number right arrow equals
+70 ampersand ampersand dollar sign number
+left arrow equals 80 close bracket open curly
+bracket echo quotation student got b close
+curly bracket else if open bracket dollar sign number right arrow equals 60 ampersand
+ampersand dollar sign number left arrow equals 70
+close bracket open curly bracket echo quotation
+student got c quotation close curly bracket
+else if open bracket dollar sign number right
+arrow equals 50 ampersand ampersand dollar
+sign number left arrow equals 60 close bracket
+open curly bracket echo quotation student got
+pass close curly bracket else if open bracket
+dollar sign number left arrow equals 49 close
+bracket open curly bracket echo quotation
+you failed quotation close curly bracket else
+open curly bracket echo quotation please enter
+your marks quotation close curly bracket. Now we save the code. I just forgot to put
+semicolon then student's got a grade will be displayed in the browser because we use
+number 88 and we applied the condition that students with greater than 80 and less than
+90 marks will get a grade. It means code is running properly. Okay, we may do a change
+delete the equal sign for the less than condition
+because if we keep them the number will respond
+to two conditions. So it will automatically stay in the first if that responds to the
+condition. Now if we use number 90 instead of
+88 then quotation student got a plus quotation
+will be displayed in the browser because the
+first condition is fulfilled. If we use number
+79 then student got B will be displayed in
+the browser. If we use number 69 then student
+got C will be displayed in the browser. If we
+use number 45 then you failed will be displayed
+in the browser because we applied that condition
+students with below 49 marks will be failed.
+If we use a number which is not mentioned in
+conditions for example 120 then the else statement
+will be printed which is please enter your rights. No I use the and operator in it but
+you can use any operator you want. So try it and practice
+it again and again soon you will find it very easy. 
+
+Module 3.3 - While loop
+
+So, in this lecture I already wrote a code. We
+will study it and you will easily understand it because it's related to HTML and CSS.
+I made an HTML file in PHP because if we made
+HTML file in HTML it will not run in PHP.
+That's why I wrote the HTML code in PHP because I want that when we run the code.
+We don't face any issues and the code seems to be running in the browser.
+Now in this lecture we will study about loops,
+how we can create loops and how we can use them.
+Loops are actually used to apply conditions
+like we also apply conditions in if statement.
+If one code doesn't run, other codes would run and so on.
+So the loops is a piece of code which will be
+executed again and again until the condition is completed.
+So a loop has an end.
+Now we will do practical.
+As you can see I used the style, then I used
+div tag and give it container and use h1 below the div tag.
+But this is HTML code.
+It's not the purpose of our lesson.
+So let's learn about loops.
+Now we will add a code.
+Remember that when you are using PHP you have to add dollar sign with everything.
+Left arrow question Mark PHP //loops dollar sign x = 0 semicolon.
+While open bracket dollar sign x left arrow = 10 close bracket open curly bracket echo
+quotation left arrow b r right arrow the value
+is quotation semicolon echo dollar sign x
+semicolon dollar sign x plus plus semicolon question Mark right arrow.
+Let me explain the code.
+It's not hard don't worry.
+So here we defined a variable called x and assigned it 0 as the value.
+Then we want to use a while loop.
+This loop works with a condition.
+Here our condition is x left arrow = 10 which
+means that the loop will keep running until x is greater than 10.
+In the loop we have two echo functions to
+print the value of x and after we increment x.
+Without the increment the code will not run
+because PHP will check the condition and then execute the condition and then keeps
+repeating the process until it reaches to 10.
+That's why increment is compulsory to run loop.
+Now if we save the code the result will be displayed in the browser's form.
+Value is 1 2 value is 10.
+You can of course change the condition.
+For example put 100 instead of 10.
+We can also use arrays iterating here.
+It means how we can display our array here.
+Left arrow question Mark PHP forward slash forward slash loops dollar sign x equals 0
+semicolon while open brackets dollar sign x left arrow equals 10 close brackets.
+Open curly brackets echo quotation left arrow br right arrow.
+The value is quotation semicolon echo dollar sign
+x semicolon dollar sign x plus plus semicolon.
+Arrays iterating forward slash forward slash
+dollar sign pro equals array open brackets
+quotation Java quotation comma quotation C plus
+plus quotation comma quotation PHP quotation
+close brackets dollar sign x equals 0 semicolon
+while open brackets dollar sign x left arrow
+counts open brackets dollar sign pro close brackets close brackets
+open curly brackets echo quotation left arrow br right arrow.
+The language name is quotation semicolon echo
+dollar sign pro open brackets dollar sign
+x close brackets semicolon dollar sign x plus
+plus semicolon question Mark right arrow.
+So now in this code first of all we make an
+array and add three things in it Java C plus
+plus and PHP and then we give the same value
+to x which we have already given for the loop.
+Remember that we are not combining their functions
+they will run separately then I use a while
+loop and use count in it and call array to count data in the array.
+Count is a keyword we use in JavaScript if you know JavaScript you should know it.
+Then I print a statement in echo.
+In this echo we want to display the data of the array
+which means we want to access the different data.
+For that we need to use x so the echo statement
+will be echo dollar sign pro open square brackets
+dollar sign x close brackets x is equal to 0 so the
+data of the array at the address 0 will be displayed.
+We need to increment x to access the other parts of
+the array so we add dollar sign x plus plus semicolon.
+Code displays the following results language
+is Java language is C plus plus language is PHP.
+Okay that's it for the while loop I hope it's clear.
+Now we can start the next session about the do while loop. 
+
+Module 3.4 - Do While Loop
+
+In this lecture we will discuss about do-while
+loop. There is no big difference between while
+loop and do-while loop. I will just run the function of do-while loop to show you the
+difference between while loop and do-while loop.
+We will write the code for better understanding.
+Left arrow question Mark, php forward slash forward slash loops.
+$x = 0 semicolon While open bracket $x left arrow equals 10
+close bracket open curly bracket echo quotation left arrow b r right arrow.
+The value is quotation semicolon echo $x semicolon $x++ semicolon.
+do-while loop forward slash forward slash $x = 0 semicolon.
+Do open curly bracket echo quotation left arrow b r right arrow.
+The value is quotation semicolon echo $x semicolon $x++ semicolon.
+Close curly bracket while open bracket $x left arrow
+10 close bracket semicolon question Mark right arrow.
+Now you can see the difference in code of while looping and do-while looping.
+I just put only while below and add do at the start of statement.
+Now let me show you how it works. We will save the project.
+Now we can see that the do-while loop statement
+is running the same way as the while loop
+statement. So the question is what is the difference between them?
+The purpose of the do-while loop is that the
+statement will run at least once even if the
+condition is false because we verify the condition after doing the statement.
+The while will first check if the condition is true or not and run the code after.
+Now let's prove it by changing the code.
+Left arrow PHP $x = 11 semicolon.
+Do open curly bracket echo quotation left arrow br right arrow.
+The value is quotation semicolon echo $x semicolon $x++ semicolon.
+Close curly bracket while open bracket $x left
+arrow equals 10 close bracket semicolon question Mark right arrow.
+So we change x to 11.
+Now if we save the project it is showing the result value is 11 in a browser.
+The question is why statement run without occurrence of any error?
+The answer is we use do in a code. It means just do it.
+In do-while loop the VS code check the statement
+written besides do and then execute it and
+the remaining process starts after execution.
+So if the condition is false the do statement will always run in all conditions.
+So this is the only minor difference between while loop and do while loop.
+You cannot add anything else in it.
+If you want to run a function where you face
+a false statement but you want to print one statement then you can use do while loop.
+For example if we change the code and write 9 instead of 11.
+Left arrow question Mark PHP $x = 9 semicolon.
+Do open curly bracket echo quotation left arrow
+br right arrow the value is quotation semicolon
+echo dollar sign x semicolon dollar sign x
+plus plus semicolon close curly bracket while
+open bracket dollar sign x left arrow equals
+10 close bracket semicolon question Mark right arrow.
+Now you can see that the value 0 and 10 are displayed.
+Ok you just learned the difference between while loop and do while loop.
+Keep that in mind. 
+
+Module 3.5 - For Loop
+
+In this lecture we will study about For Loop
+and we will also discuss about how to use it.
+Before starting the lecture I want to tell you that For
+Loop is a combination of While Loop and Do While Loop.
+If you ask any senior or professional developer
+which loop is widely used then the answer
+will be For Loop because professional developers widely use For Loop.
+You will also get my point when you see the code of For Loop.
+Left arrow question Mark, PHP //loops, dollar
+sign x = 0; while open brackets dollar sign
+x left arrow = 10, close brackets, open curly
+brackets, echo quotation left arrow b r right
+arrow, the value is quotation semi colon echo
+dollar sign x semi colon dollar sign x plus
+plus semi colon, Do While Loop // dollar sign
+x = 0 semi colon, Do, open curly brackets,
+echo quotation left arrow b r right arrow,
+the value is quotation semi colon echo dollar
+sign x semi colon dollar sign x plus plus
+semi colon, close curly brackets, while open
+brackets dollar sign x left arrow 10, close
+brackets, semi colon, question Mark, right arrow.
+As you know in loop and Do While Loop we do deceleration of the value.
+If we talk about coding of loop we do declaration
+of value then we make condition and we apply increment after make and condition.
+Now let's talk about Do While Loop.
+We do value declaration then we wrote statement
+and we gave conditions in statement and later it would be executed.
+As you can see it's time consuming and requires
+a little bit more work but For Loop is a two
+line code which works like While Loop and Do While Loop as well.
+Let's write code of For Loop.
+Left arrow question Mark, PHP, for, open brackets,
+dollar, x = 0, semi colon, dollar sign, x, left arrow 10, semi colon, dollar sign, x
+plus plus, close bracket, open curly bracket,
+echo quotation left arrow, br, right arrow,
+the value of For Loop quotation, semi colon,
+echo dollar sign, x, semi colon, close curly bracket.
+First of all we will declare value then we will make condition.
+After making condition we will do increment.
+Now we will print statement using echo as you can see above in code.
+Then we will save the code and we can see the value of For Loop in the browser.
+You can observe many sentences appear with a different number.
+As for the other loops you need to declare a variable.
+In the For Loop the variable is declared.
+Increment and the condition of ending is given in the brackets.
+That's why it's popular and easier.
+Ok let's do a recap of what we learnt.
+We learnt that if we want to make our loop
+shorter then we will always use For Loop because we did all steps in one line.
+That's why For Loop is mostly used.
+So in this code first of all the S code checked our value declaration.
+Then checked condition and condition becomes
+true and increment keeps running until the value reached 10.
+Voila!
+That's it for this lesson.
+Don't forget to practice.
+Thank you. 
+
+Module 3.6 - Functions
+
+There are 700 different types of functions
+in PHP which can be used for different tasks.
+Let's just move on to the syntax of functions.
+We will just write the word function and make
+argument and then we will add parameters.
+For now we are not using any parameters.
+The syntax of a function is the following.
+Left arrow question Mark, PHP, function fun
+open bracket close bracket, open curly bracket,
+close curly bracket, question Mark, right arrow.
+Now we will print statement using echo in syntax of function.
+Left arrow question Mark, PHP, function fun
+open bracket close bracket, open curly bracket,
+echo quotation number one quotation close curly bracket, question Mark, right arrow.
+Now the function is created.
+Now if we save the function nothing will be
+displayed because we have to call the function in the program.
+Left arrow question Mark, PHP, function fun
+open bracket close bracket, open curly bracket,
+echo quotation number one quotation close
+curly bracket, fun open bracket close bracket,
+semi colon, question Mark, right arrow.
+Now you can see our function is called and number one is displayed in the browser.
+I will just add quotation left arrow, br,
+right arrow quotation to display the sentence on another line.
+You can also call the function multiple times as you can see in this code.
+Left arrow question Mark, PHP, function fun
+open bracket close bracket, open curly bracket,
+echo quotation number one quotation closed
+curly brackets, fun open bracket close bracket,
+semi colon, fun open bracket close bracket, semi colon, fun open bracket close bracket,
+semi colon, fun open bracket close bracket, semi colon, question Mark, right arrow.
+Now number one will appear four times in the browser.
+That means our code is working properly.
+Remember that we cannot use multiple functions with the same name.
+You need to change their names.
+Here we are going to copy and paste the function and change the name to fun one.
+Okay, exactly like that.
+Then we will add to echo in the function.
+And we will add an argument between the brackets of the function.
+Here we will call it number.
+The code is this one function fun one in brackets dollar sign number.
+Open curly bracket echo quotation your value
+is quotation semi colon echo dollar sign number
+semi colon close curly bracket fun one open
+bracket 100 close bracket semi colon fun one
+open bracket 56467 close brackets semi colon
+fun one open bracket 5798 close bracket semi colon fun one open bracket 33442 close
+bracket semi colon question Mark right arrow.
+Now if we save this function, all different values will be displayed in the browser.
+So we can use function for calling different values.
+Just remember one thing that function will
+not be automatically called, you have to call function.
+The basic concept is the following one.
+When you call the function, you write an argument between the brackets.
+This represents the value you want to treat in the function.
+So here we are writing four calls of the function one with four different values.
+In the function, we call the argument by writing
+number, which is the name of the variable we defined.
+That's why when we look at the browser, the values we send by calling the function are. 
+
+Module 3.7 - Types of Strings
+
+In this lecture we are going to discuss another
+part of our course which is string. We discussed
+different data types previously. String is one of them. There are also different types
+in string and we use different keywords for finding things.
+Now let's see more about it in a new page that I already created. Then we will define
+a variable as a string and write hello world
+in sight. Call it in echo. We will use the
+following code for this. Left arrow question
+Mark, PHP dollar sign string equals quotation
+hello world quotation semi colon echo dollar
+sign string semi colon question Mark right
+arrow. Now we will save it and we can see that hello world is printed in the browser.
+As we had already discussed we have different
+keywords. We will use them along with current
+string to find things with the help of these
+keywords. For example we want to know what
+is the length of hello world we were using in a code above. We will write the length
+keyword and call dollar sign string. We will
+also call statement by using echo and dollar
+sign length by using concatenation otherwise
+no result will be displayed in the browser.
+For example we will use the following code
+for this. Left arrow question Mark, PHP dollar
+sign string equals quotation hello world quotation
+semi colon echo dollar sign string semi colon
+dollar sign length equals STR L E N in brackets
+dollar sign string brackets semi colon echo
+quotation the length of string is quotation
+full stop dollar sign length semi colon question
+Mark right arrow. Now if we save the code it
+will show the result hello world the length
+of string is 11. It is also counting space. If we remove space between hello and world
+the length of string will be 10. Oh yes and
+you need to keep in mind that the index value
+starts at zero and not one. You can also add
+a break in the code left arrow B R right arrow
+for a better presentation. Now if we want
+to find words in string then we will use the
+following code. We will also call statement
+by using echo and dollar sign length by using
+concatenation otherwise no result will be displayed in browser. For example we will
+use the following code for this. Left arrow question Mark PHP dollar sign string equals
+quotation hello world quotation semi colon echo dollar sign string full stop quotation
+left arrow B R B right arrow quotation semi colon dollar sign length equals STR L E N
+open brackets dollar sign string close brackets
+semi colon echo quotation the length of string
+is quotation full stop dollar sign length
+full stop quotation left arrow B R right arrow
+quotation semi colon echo quotation the word
+of string is quotation full stop STR underscore
+word underscore count open bracket dollar sign
+string close bracket semi colon question Mark
+right arrow. Now it will display the results
+hello world length of string is 10 the word
+of string is one. It is displaying one word because hello world is a single word. If we
+add a space between hello and world and save
+it hello world now it will display the result
+hello world the length of string is 11 the words for string two. We can also reverse
+the string by using the following code left arrow question Mark PHP dollar sign string
+equals quotation hello world quotation semi
+colon echo dollar sign string full stop quotation
+left arrow B R right arrow quotation semi
+colon dollar sign length equals STR L E N open
+bracket dollar sign string close brackets
+semi colon echo quotation the length of string
+is quotation full stop dollar sign length
+quotation left arrow B R right arrow quotation
+semi colon echo quotation the word of string
+is quotation full stop STR underscore word
+underscore count open brackets dollar sign
+string close brackets semi colon echo quotation
+the words in string is quotation full stop
+STR EV open bracket dollar sign string close
+bracket question Mark right arrow. Now it will display the results hello world length
+of string is 11 the word of string to the word of string is D L R O W O L L E H. So
+our actual string hello world is reversed now and the result is D L R O W O L L E H.
+If you want to find something in our string then we will use the following code just by
+adding one key words to the above code we are using before left arrow question Mark
+PHP dollar sign string equals quotation hello
+world R quotation semi colon echo dollar sign
+string full stop quotation left arrow B R
+right arrow quotation semi colon dollar sign
+length equals STR L E N open bracket dollar sign string close brackets semi colon echo
+quotation the length of string is quotation
+full stop dollar sign length full stop quotation
+left arrow B R right arrow quotation semi colon echo quotation the word of string is
+quotation full stop STR underscore word underscore
+count open brackets dollar sign string close
+brackets semi colon echo quotation the words
+in string is quotation full stop STR EV open
+bracket dollar sign string close brackets
+echo quotation find the words quotation full
+stop STR POS open bracket dollar sign string
+comma quotation R quotation close brackets
+question Mark right arrow. Now it will display
+the results. Hello world length of string is 11 the word of string is 2 the word of
+string is D L R O W O L L E H find the words
+12 is displaying the results 12 because R starts at the 12 position in the sentence.
+Again, you need to keep in mind that the index
+starts at zero. If we write Hello world is
+R, then three more elements will be counted and R will start at the 15th position.
+Thank you.
+
+4. Arrays
+Module 4.1 - Arrays Method
+
+In this lecture, we will delve into arrays.
+If you've grasped the lecture on data types,
+you'll recall that we discussed various data
+types such as objects, arrays, variables,
+null and undefined. Among these, there's a specific data type known as arrays. Why do
+we use arrays? Arrays come in handy when we need to showcase multiple data points. For
+instance, consider wanting to display a list
+of fruits starting with apple, then moving
+onto orange, mango and banana. We want to iterate
+through the list, perhaps making changes along
+the way. Now, instead of creating multiple
+variables and echoing them individually, which
+seems unprofessional, we opt for an array. In this array, we gather all these values
+at once. If we wish to display the entire array, we can do so. On the other hand, if
+we want to access a specific value, we can use its index. For instance, if we wish to
+retrieve the value orange, we can access it
+by referring to the array and using an index
+of two. As a result, we obtain coconut. This
+exemplifies how arrays work. When we loop through an array using a for each loop, we
+can display all the values sequentially. The
+loop parameter in this case is fruits. And
+within the loop, we assign each value to the
+variable fruit. We can further enhance our
+understanding of arrays by experimenting with various methods and their applications.
+[. 
+
+
+Module 4.2 - Count & Sizeof Array
+
+The next concept in our lecture is how we can
+utilise different methods with our arrays.
+There are numerous methods available for
+arrays and the first one we'll discuss is count
+and size. Both count and size function similarly,
+serving the purpose of determining the number
+of elements in an array. If you wish to check
+how many data elements are occupied within
+an array, you can employ the count or size method. In this case, I will omit this loop
+since I already have an array created and I want to count the elements within it. I
+will simply use the $count function and apply
+the count method to sum up the data elements
+within the fruits array. The resulting count
+variable will display the count. Additionally,
+I will eliminate the dot from the code. So,
+see here, as soon as my refresh works, I will
+get a value of 5. This shows that my index
+array has 5 values and this is how we obtained
+our 5 values through count. So, if I also use size of here, the value that I will get
+will be the same. The functionality of these two
+is the same. There is no significant difference
+in functionality between count and size of in PHP. You can choose to use either, but
+it's more common and recommended to use count
+because of its widespread use in the PHP community.
+Along with that, if we enhance this code and
+use multidimensional arrays here and here,
+we will see how count and size of work. So, for that, we will first comment this out.
+I will create a new variable and make a multidimensional
+array here. I will make one related to fruits
+and here I will use the values from the other
+array. Next, I will create another array named
+veg and the array will work in the same way.
+Here, I will add different items like carrot,
+pea and tomato and now these values have been
+added. We will just equate here along with
+count and it will include my food. Immediately
+after saving and running my browser, I will
+get the result of 2. Now, why is there a result
+showing 2? The result appears because I have
+used 2 arrays and the counter added these 2 arrays, not all the values of these arrays.
+If I use size of here, it will work the same.
+Upon refreshing, it is still the same. But
+if we want to count our internal values, we will use a mode here. We have 2 modes. The
+first is 0 and the other one is 1. The default
+value is 0 and 1 is used manually. Modes are
+all explained here. So, I will use 1 here and as soon as I refresh it, I will get 10
+as a result. However, the total values in our
+arrays are 7 or 8. So, where did the 2 extra
+values come from? These 2 are the names of
+the arrays that we have created and the system
+is treating them as values. This is how we can use count or size of with our arrays.
+We can also create multi-dimensional arrays
+and we have also learned how to use modes here. 
+
+
+Module 4.3 - If else with arrays
+
+In this lecture, we will explore how to create
+arrays and how to search for specific values
+within them using index values. We have already
+obtained the index result. However, if we wish to apply conditions, similar to those
+used in practical life, to find data, we can
+do that as well. Here, I will create an array
+named names and add some names such as Joe,
+Paimon, Stark, John, and another name, Taylor.
+Now, if I want to locate a specific name within
+this array, I will utilize the in_array method.
+I will specify the array names and the name
+I want to find, Stark. After saving the changes,
+upon refreshing my browser, I will receive
+a value of 1. This value indicates that our
+statement is true and the name has been found.
+If I were to misspell the name, no value would
+be returned in the browser, signifying that our
+statement is incorrect. We can use this same
+concept in an if-else statement. If we find the
+name, we will receive a notification. Otherwise,
+we will encounter an error. I will now comment
+out the previous code and create an if-else
+statement. In the condition, I will use in_array
+to search for Stark within the names array. I will
+then echo find_successfully if the name is found or
+cannot_find_error if it is not found. Upon refreshing the page, I see that it displays
+cannot_find because I mistakenly added a space.
+After correcting the mistake, I get the message
+find_successfully upon refreshing the page. If
+I misspell the name, I will receive an error.
+This is how we can search for a name. Now, if I use a value like 100, upon refreshing,
+I see that my value of 100 is successfully stored. This is an integer value. However,
+if I save it as a string, I will not encounter
+an error. The find_successfully command will run
+normally. To differentiate between a string and
+an integer value, we can use the true parameter
+in the in_array function. When we specify the
+exact value we want to find in the true parameter,
+we will receive a cannot_find error because there
+is a mismatch between the string and the integer
+value. This is because we specified that the true value must be found. 
+
+
+Module 4.4 - Search Array
+
+So, the next method we have is the search
+array. With this method, we can retrieve our
+index or key value. If this statement is not
+used, we may receive either one statement
+or nothing on the screen. However, if we wish
+to assess how our array works with the search
+array method, we'll start by defining an array
+related to names. We'll create an array called
+associated where start is set as the key value.
+In this array, the value enclosed in double
+quotes represents our associated value. For example, we'll set stark as the name with
+an associated value of 1 and then John with
+Paimon as the third value. After saving, we'll
+create another variable called key and use
+the array search here method to find the key
+in our array. Upon searching and echoing key,
+I notice that after refreshing the page, no
+results are displayed. So, here I'm not getting
+any results and this is because I've made
+a small coding error. Now, after correcting it, as soon as I refresh the page, I will
+get one result in my browser. If I search for John here, I will get two results. This
+is how we retrieve our keys and values. Additionally,
+we can use a specific if else statement. We
+will create a little function where I will
+remove the echo statement and replace it with
+an if else statement. The condition will check
+if the key is not equal to false and the return
+will be false. In this case, I will echo the
+key associated with John is dollar sign key.
+After correcting my codes, I will remove my error. So, I will echo again, adding John
+is not found in the array. Now, after saving
+it and refreshing the page, I will get the
+key associated with John as 2 and the result
+I'm obtaining is 2. If I manually start it,
+after saving, I'm getting Stark in the result.
+This is how we can find our key values. For
+instance, if I misspell the word Stark, I
+will get John is not found in the array. And
+when I correct it in the description, I will
+get Stark is not found in the array. This is how we can use our array. Here, we have
+key values and index values. Otherwise, there
+are only 1 and 0. When I uncomment this array, I'm
+able to successfully find it and the statements
+for 1 and 0 will execute. This is how we can utilize our search array.
+[. 
+
+
+Module 4.5 - Slice & Splice
+
+In this lecture, we will explore various array
+methods, such as slice and map operations.
+By utilizing these array functions, we can specifically add elements to our array.
+Let's begin with a closer look at the slice method.
+I will create an array related to sliders and employ
+the array slice method to store fruit within it.
+I'll use a parameter, setting my index to 0, 1,
+2, 3, and 4, with the intention of displaying only the elements up to index 3 or 2.
+After saving it, I will print the result.
+Unfortunately, I encountered an issue because I forgot to use the echo function.
+Here's the corrected version.
+Now, as you can see, 0 corresponds to apple and 1 corresponds to banana.
+This means that the indices 0 and 1 represent the first two elements.
+However, if you want to select the last two elements, simply add -2 here.
+After refreshing, I will see date and fig displayed.
+This is how you can retrieve the last two elements.
+If you wish to display elements starting from index 1 to the end, simply add 1 here.
+You will get a banana, cherry, date, and fig, as you can see.
+If you want to display specific values from
+specific indices, such as index 3 and 4, use true here.
+Now I have date and fig in my code.
+When I refresh it, the last two indices I added are displayed.
+This is how you can achieve this.
+Now, let's move on to the next concept, splice.
+It's essential because it allows us to delete and insert components in our array.
+To demonstrate, I will remove this variable.
+Instead, I will use the splice function.
+The fruits array remains the same, but I want
+to remove the elements at the first and second indices.
+However, upon refreshing, I encountered an error
+because I forgot to update the fruits array below.
+After correcting this, I can see in the browser
+that apple, date, and fig remain, while banana and cherry have been removed.
+This is due to the removal in the splice function.
+If I want to add items at indices 2 and 0, I can use grapes and kiwi.
+Upon refreshing, I get apple, banana, grapes, kiwi, cherry, date, and fig.
+Actually, I had removed the first item earlier, so now it's back.
+If you prefer to start adding elements from the last
+index, you can use -2 and include orange and pear.
+After refreshing, you will find pear and orange at the end because I used -2.
+This means that the array modification starts from the end.
+I hope this helps clarify the array methods we've discussed. 
+
+Module 4.6 - Reduce
+
+The next method in our PHP arrays related to
+map is known as reduce. In the last lecture
+on the map method we discussed three parameters.
+However, in this lecture we will focus solely
+on the square function. We will be adding some parameters and in this lecture we will
+also initialize some parameters. I will create a
+function named my function and add two parameters
+A and B. Then I will return these two parameters
+with the addition sign to observe the differences
+in these parameters. The reduce method will be used after we implement the my function.
+I will declare a variable C and create a string
+array with the names orange, mango and apple.
+Additionally, I will create a new array and
+utilize the array reduce method where we will
+add three parameters. Firstly, the newly created
+C array will be declared. Then I will invoke
+my function and initialize a value here which
+we will manipulate later. Finally, I will
+examine the result of my array. Upon refreshing,
+I notice that the values are the same but
+there is a hyphen at the start. This occurs
+because the parameter A doesn't have any value
+initially while the second one holds the value
+orange. As the loop function iterates, mango
+becomes the first array element and apple follows. If we wish to initialize the value
+ourselves, the reduce method allows us to do so. For example, I will add coconut and
+initialize it. After this adjustment, I will
+obtain the value coconut preceding orange
+followed by the other paired values upon refreshing.
+Now, let's consider another example involving
+numeric arrays. I will simply add the numbers
+1, 2, 3, 4, 5 and 6. After refreshing, I first
+receive coconut followed by my numbers. To perform addition with these numbers, I will
+include the addition sign but an error arises.
+To rectify this, I will initialize the value
+to 0 and now I obtain the sum of all the numbers
+in the array. If we desire to calculate the
+square of these numbers, we can do so by specifying
+the value as 20. This will yield a result
+different from the previous one where all values are multiplied
+with each other and then by 20 resulting in a total of 14,400.
+[. 
+
+
+Module 4.7- Array Fill & Array Fill Key
+
+We will see that if we have an associated array, normally if
+we have any associated data we have to add some specific keys.
+For example, if I take an area here, the first
+key is John Doe's first name and the second is the email.
+However, we want the keys to be similar whenever we use any associative area.
+So here, the method for creating an array
+with similar keys is known as array_fill_keys.
+For instance, I'm creating an array here with the values a, b, and c.
+Now I want the keys to be similar.
+Therefore, I will create a new array variable and use the array_fill_keys method.
+Array_fill is another method, but in this
+discussion we are focusing only on array_fill_keys.
+I will test it by printing the array, ensuring that the keys are similar.
+As soon as I print it anywhere, I will see the testing result in my browser.
+In the past, when using a simple associative
+array, we had to add all the keys manually.
+However, if you want the keys to be similar,
+you can easily use the array_fill_keys function.
+Another method we have is known as array_fill,
+which is used when you do not have an existing array.
+For example, if we have no array here, we
+can start with the specific index and values.
+Here I want my index to start from 4 and
+end at 7, and I will get the values up to 7.
+However, I encountered an error because I haven't changed the method to array_fill.
+So I will remove the word keys.
+After saving and refreshing, you can see that
+my index starts from 4 and ends at 10, giving me 7 values.
+This is how we can use array_fill.
+It's worth noting that we can use integers as well.
+For example, if I replace a, b, and c with
+10, 20, and 30, you can see that this is how we use the fill method.
+In summary, we've discussed practical examples
+of where we can use the array_fill method and its specific purpose.
+Array_fill is often used when you need to
+initialize an array with default or placeholder values.
+Real world examples of when array_fill can be
+useful include database result sets, templates,
+default settings, generating data for testing
+purposes, and working with dummy data during development and testing.
+Array_fill can be used to create arrays with
+broad placeholder values, as we have seen in our lecture. 
+
+
+Module 4.8- Printing Methods
+
+In PHP we have many methods and the result
+of our PHP code is displayed in our browser.
+In PHP there are smart functions used for
+printing or displaying output in the browser
+or console. Some of the most useful ones are echo, print and printf.
+Let's start with the echo function where we print simple normal values.
+On a refresh, hello world will appear in my
+browser. The echo statement is commonly used to display content on the browser.
+The second method is the print statement.
+Similar to echo, used to output text, returning
+one if successful. It's often used in expressions.
+Next we have the printf function. Used for
+formatted printing. It allows you to specify
+placeholders for variables and format them accordingly.
+These are some of the printing methods available.
+We also have other methods like printR function
+which is used for printing the content of arrays or objects, primarily for debugging
+purposes. This printR function is mostly used with arrays.
+Moving forward we'll discuss more methods with
+printR being a common choice. Additionally
+there's a var_dump function, similar to printR,
+but providing more detailed information about
+variables including their data types and
+values. It's useful for checking data types.
+If you want to show an error on the browser you can use the die method. It's typically
+used for handling errors related to arrays or HTML elements.
+Speaking of HTML elements, you can easily incorporate
+them using PHP. You can display HTML elements
+like h1 tags and apply formatting such as making text italic.
+Finally, there are functions for capturing output in buffers for later use, especially
+in advanced scenarios where you need to modify
+captured content before sending it to the
+browser. These are some of the primary functions
+for managing output in PHP. Your choice of
+which one to use depends on specific requirements
+like formatting, debugging, adding HTML content
+and more. It's up to you to decide which one suits your needs.
+[. 
+
+5. Post & Get
+Module 5.1 - Form Validation with GET Method
+
+So, this lecture begins with our form validation,
+utilising the area methods from the previous
+section. Here we will apply some of these
+methods to learn how to handle errors in the
+form validation and retrieve data through PHP.
+To start, I'll create a form with the title changed to Simple Form. Inside, I'll create
+a div and a form. In the form, I'll include a
+div with the label for username and an input
+field for the text with the placeholder set to User. After saving this, I'll add a line
+break. In the browser, I now see a username field with User.
+Next, I'll copy this div and change username to
+Password, setting the placeholder to Password.
+After saving, I'll add another input element,
+changing the labels to Email. Upon refreshing,
+I now have three fields, username, password and email.
+Finally, I'll create another div with a login
+button inside it, using the Submit Type.
+Upon refreshing and entering data, the website works perfectly.
+Now I'll add validation. I'll use a Home Page
+Return and specify the file name as index.php
+so we can return to our homepage. After adding
+a line break, I'll implement validation in this form.
+First, I want to ensure that when I enter data for username, password and email, and
+click Login, my data is displayed. In the form
+tag, I'll set the action attributes to index.php
+and use the get method to retrieve the data.
+In the PHP tag, I'll simply echo it and wrap
+it in the pre-tags for a formatted result. I'll
+also use the print_r to print the get data.
+Now we encounter a syntax error upon refreshing,
+indicating an issue on line 5. I'll remove
+that line to resolve the error. However, I still don't see any result when submitting
+the form. This is because we need to use the
+name attribute for each input field. I'll
+add name attributes for username, password and email.
+After saving, I'll enter data for Steve as the
+username, a random password and steve@gmail.com
+as the email. Upon logging in, I see the data
+displayed neatly, thanks to the associative
+array. If you prefer not to print the array and want to display the data directly, you
+can use echo $_GET followed by the field name.
+For example, I can display the username data
+using echo $_GET(username) and add a line
+break. Similarly, I can display password and
+email data. However, after returning to the
+home page, you might encounter an error because
+the page cannot find the username, password
+and email data, resulting in undefined errors.
+To prevent this, you can use an if statement
+and the iSET function. Wrap your code inside the if condition with
+iSSET open bracket $_GET open square bracket
+single quotation submit single quotation close
+square bracket close bracket to ensure that it
+only runs when the submit button is pressed.
+This prevents the undefined errors. Additionally,
+you can use exit to halt the code execution
+after displaying the data, ensuring that the page doesn't continue processing.
+After these modifications, refreshing the page
+should work without errors and your data will be displayed correctly.
+
+Module 5.2 - POST Method
+
+In the last lecture, we discussed and I explained
+how to use the GET method and how to input data using this method.
+In the next lecture, we will delve into database concepts.
+This knowledge will help you avoid any confusion
+when I implement a mini project, demonstrating the specific purpose of each method.
+Now, you can observe that I use the GET method,
+but I'll remove it and employ a pre-tag.
+I'll use the username as Joe, a random password and the email as steve@gmail.com.
+Consequently, I'm employing the GET method.
+When I click on the GET method, my data is retrieved in the function.
+However, the URL clearly displays my Gmail, password and
+username, which is an insecure practice for security reasons.
+To address this, we'll refrain from using this practice
+as it can expose your account to potential hacking.
+Instead, we'll opt for the more secure POST method.
+The POST method ensures that your data is sent
+directly to the database without appearing in the URL.
+The choice between GET and POST depends on
+your web application's specific requirements.
+In simple terms, GET is commonly used for
+requests that retrieve data from the server.
+And it's suitable for requests where data visibility in the URL is acceptable.
+On the other hand, POST is employed for requests
+that modify data on the server or send large
+amounts of data, making it more secure for sensitive information.
+The transition from GET to POST simply replace instances of GET with POST.
+Before that POST is capitalized, after refreshing,
+you'll notice that the data you input is no
+longer visible in the URL upon clicking the login button.
+When you want to send data to your server, use the POST method.
+Conversely, when you need to add or retrieve
+data from your URL, employ the GET method.
+For example, on the Amazon website, when you
+click on a section like "Toys" under $30,
+you can see that the URL displays the selected category.
+In this case, the GET method is used for retrieving data in the URL.
+For more advanced topics and hands-on experience,
+we'll cover these concepts in detail during our upcoming mini-project.
+I divided these lectures into partitions to prevent confusion while using both methods.
+This concludes our lecture on the POST method.
+I should have covered this in the previous lecture, but I
+structured the lectures this way to facilitate your understanding.
+[. 
+
+Module 5.3 - Input Radios
+
+In the last lecture, we discussed how to validate our form using the POST method.
+Now we will implement the POST method for form validation and focus on radio buttons.
+This topic is related to forms, specifically
+how to submit data using radio buttons and input fields.
+First, let's create the radio buttons.
+Begin by adding a label with the title "Select Any Title".
+Then use the input type "radio" with the name "attribute" to set to "title".
+Add a line break, open bracket, left arrow, B,
+R, right arrow, closed bracket for formatting.
+The title name will be "Web Development".
+Next, copy and paste this code, keeping the
+title the same while replacing "Web Development"
+with "React Developer" and "PHP Developer".
+Now we've created three titles.
+Assign values to them.
+Web Development, React and PHP.
+After saving, you should see three titles displayed.
+Insert another line break for better formatting.
+Next, add a button with the name "Submit" and the value "Confirm".
+After refreshing, you'll see a "Confirm" button.
+Now we'll handle the form submission using PHP.
+Create a PHP file called form.php and set the form method to "post".
+Below the form, use an "if" statement to check if the "post" method is set.
+If the "Confirm" button is clicked, echo the "title" variable.
+It will display the selected course title.
+If nothing is selected, it will show the default value, which we will set shortly.
+To set default values, remove the "Echo" statement.
+Instead, we use an "if else" structure.
+Check the "title" variable equals "Web Development"
+and echo a message like "You selected the course Web Development".
+Repeat this for React and PHP.
+Finally, include an "else" statement to handle
+cases when no course is selected and display a message like "Please select a course".
+After saving, if you run this code and select
+"React" or "Web Development", it will display the chosen course.
+If you don't select any course and click "Confirm",
+it will prompt you to select a valid course.
+The advanced code you mentioned using $_post
+and the triple equals sign is for professional use.
+It strictly checks the data type.
+You can see that it simplifies the code while achieving the same results.
+In this example, we've demonstrated both approaches,
+but the latter is more concise and efficient.
+
+6. MYSQL
+Module 6.1 - MySQL
+
+So now we are going to start our SQL part.
+In this PHP section, we will explore our SQL
+code and learn how to connect it to our database.
+In PHP, we can manage everything, including
+connecting codes, just like I use the get
+method to show you data in our browser. However,
+the primary use of get or post is with our database. Just like we installed the xampp
+server and the browser, I initially stumbled
+upon running it as a local server. But there
+is no benefit to having a server if we don't
+have a database to store data. For that purpose,
+we will use MySQL. MySQL consists of two SQL
+languages. Actually, it's a structured query
+language and we can integrate it in various
+ways according to our needs. Alongside this,
+we also have SQL, which is a different software.
+We can use it as well, but the key difference
+between SQL and MySQL is that MySQL can manage
+data through software and within our browser.
+We can install its workbench as well. I recommend
+using MySQL for PHP because most of the documentation
+available for PHP is for MySQL. Additionally,
+SQL has several issues, while MySQL is more
+convenient due to its easily accessible documentation
+and user-friendly interfaces. In this session,
+we won't install MySQL software. Instead,
+we'll access the local host and I'll use my PHP
+MyAdmin instead of a local user for PHP. Now, my
+database is connected automatically, directing
+me to the local database. If you simply add PHP
+MyAdmin while connecting, you'll have access
+to a better admin interface. Clicking it will
+take you to this page. Here, I'll create a
+database, for instance, PHP tutorials. As soon
+as I create it, PHP database will be generated.
+Here I can add tables, run SQL queries, and
+even import data if needed. In the next lecture,
+we'll learn how to connect PHP to our database
+and how to connect one PHP script to another. 
+
+
+Module 6.2 - MySQL Table Structure Database
+
+So, when comparing MySQL with other databases, we encounter numerous issues.
+For example, if we observe the connection between PHP and a
+non-MySQL database, DP, it may appear to connect successfully.
+However, the user experience differs significantly.
+MySQL and PHP have been around for quite some time.
+As I mentioned earlier, approximately 80% of
+our web relies on PHP, and MySQL is frequently
+used in production environments at a high level.
+However, when dealing with larger projects,
+MySQL is the more reliable choice due to its user friendliness.
+Additionally, MySQL offers extensive documentation
+as an open source platform, making it scaleable and high performance.
+It boasts robust data security, security engines,
+enterprise versions, and seamless integration
+with various programming languages and web development frameworks, thanks to libraries
+and connectors for languages such as PHP, Python, C++, Java, and more.
+Furthermore, MySQL includes useful tools like PHP Admin for managing databases.
+Now, let's dive into setting up a PHP tutorial.
+We'll begin by connecting PHP with MySQL.
+In our VS Code environment, the view appears as follows.
+I will link my MySQL file with the PHP file and access my localhost for PHP tutorials.
+First are the class and variables.
+The server name is localhost, the username is root, and the password is password.
+We'll use the PHP tutorials database.
+To establish the connection, I'll create a new
+MySQL I connection, incorporating these variables.
+Next, we'll check if the connection is working using an if statement.
+If there's a connection error, we'll handle
+it with a die statement displaying connection failed.
+When we successfully connect, the message we are connected will be echoed.
+When testing, if I comment out the connection
+statement and refresh the page, I receive
+the uncaught my SQL I underscore SQL underscore
+exception error, indicating that the local host connection was denied.
+Upon uncommenting and refreshing, the connected message appears.
+This is how we establish a connection between PHP and MySQL. 
+
+
+Module 6.3 - Configuration File
+
+So, here you can see that I have successfully
+connected my PHP code with my SQL database.
+In this step, we will create a configuration file where we'll set up our database.
+The primary purpose of configuring our database
+in the configuration file is to ensure that
+whenever we work on a high-level project, we require a centralized configuration.
+This is essential because we often deal with
+different objects, functions, and a large amount of data.
+To effectively manage this data, we use the
+configuration file, which has never been created
+before but can be included from this file.
+There are several important aspects to consider
+when using PHP configuration files, such as
+centralized configuration, separation of concerns,
+adaptivity, security, ease of maintenance, portability, debugging, and efficiency.
+In PHP, security is particularly sensitive, and
+sensitive information like database credentials
+and API keys should never be hardcoded for security reasons.
+Instead, configuration files are typically
+written in PHP scripts that define variables
+or constants with the necessary integration values.
+So, in our case, we will start by creating a
+folder for our configuration called config.
+Inside this folder, we will create a file named database.php.
+I will then copy all the code and paste it into the database.php file.
+As a result, the local host currently shows
+nothing because my mysql.php file is completely empty now.
+To use our configuration file, we will simply employ PHP.
+I will add an include function and specify the file
+we've configured, which is config/database.php.
+Upon refreshing the page, we can observe that
+the database connection is established from
+mydatabase.php file, while the code I'm running originates from mymysql.php file.
+This is how we can effectively utilize our configuration file.
+In the next step, we will explore how to add
+data using this configuration file through queries. 
+
+7. Queries & Project
+Module 7.1 - Update and Delete Query
+
+In the previous section, we learned how to add data to our local PHP server.
+Here, I've created data entries, such as Steve Carlos, Paimon,
+Pi, and John, along with their corresponding passwords.
+Now, if you wish to make changes, you have a few options.
+Editing, Copying, or Deleting. Let's focus on editing.
+To do this, simply select the Edit option, where you can change passwords as well.
+Upon running this operation, you'll notice
+that the data has been successfully updated.
+However, when working at a production level, things don't work quite the same way.
+In such cases, we need to make changes through our code. I currently have
+6 IDs, and if I want to modify any of them, I can use the Update function.
+Here's how it works.
+First, I create a variable named UpdateUsersSetUsername,
+and specify the username I want to change.
+For example, I'll replace Steve with Joe. Next, I use
+the Where clause to indicate which ID I want to update.
+In this case, I'll set it to 1. Then, I execute
+the query using SQL and check the response.
+To ensure that the update was successful, I included an If statement.
+If the response is as expected, it will echo UpdateIt.
+However, when I initially run this in my browser, I encountered an error.
+After making the necessary correction by using single
+quotation marks, I refresh the page and the update is complete.
+Now, if I refresh the ID, the username has changed to Joe.
+Similarly, if I want to change the password, I can input a number like 71271, refresh
+the page, and observe that the data has been successfully updated in my database.
+So, this is how we can update our data.
+Now, the next query we have is about deleting.
+When you click the delete button here, this query will delete the row.
+But what if I want to do the same thing through code? How do I do it?
+For that, we will use SQL and change the statement to delete from users.
+The importance of the Where clause is that if you don't
+specify where, your whole database could be deleted.
+Now, I want to delete ID number 5. So, I'll enter 5, save it,
+and the echo statement will change to RecordDeletedSuccessfully.
+After saving it, when I refresh, I will see RecordDeletedSuccessfully in my browser.
+This means my statement and code are running properly.
+I know that if I check, my fifth ID has been removed.
+This is how we can update our data.
+I'm explaining all these things to you because in our next project, I will add insert and
+delete queries so you can easily understand how we can update or delete entries in our database.
+Like how we can upload and delete things on our website live.
+Here, I will run a query where I won't use the Where clause.
+When I refresh, I will get an error because the system
+doesn't understand what to delete without Where.
+If I also remove the ID, my whole database will be deleted.
+Then, it shows RecordDeletedSuccessfully and
+as soon as I refresh, my database is gone.
+This is how we can delete our database.
+Next, we will explore a project in which we have used all
+these concepts and how we can actually implement them. 
+
+Module 7.2 - Form UI
+
+In this lecture, we'll begin our project. In
+this project, we'll create a form and perform
+all the necessary configurations through it.
+After configuring, we can effortlessly input
+user details into the form and track the number
+of users added. We'll also be able to check various other aspects.
+To start, we'll rename the file from userdata.php to add-user.php.
+Next, we'll generate an HTML file where we'll set up the user interface UI.
+The title will be Users. Following that, we'll establish a section
+tab and label it "registered form". For the form action, we'll use the add-users.php
+file with the POST method. Initially, we'll create a div with the class
+"container". Inside, we'll label the field as "username
+in bold text". Then, we'll add an input field for the username,
+set its type to "text", and include a placeholder with the text "username".
+We'll also assign it a name and Mark it as "required" to ensure data entry validation.
+For now, we'll save this file as an HTML file. Now, we will create another label.
+Here, we will add "password" within inverted commas and set it as "psw".
+Next, we'll add an input field with the type
+set to "password" and a placeholder as "enter
+password". The name for this input will be "password"
+and we'll Mark it as "required". Moving on, we'll add another label where
+we'll copy and paste "for" to indicate the email time with "email enclosed in inverted
+commas". We'll configure everything accordingly.
+Now, with the browser in play, we have username,
+password, and email fields functioning correctly.
+First, we'll insert line breaks in the code,
+and then we'll add a final break at the end.
+I haven't applied bold formatting to many
+elements yet, so I'll make those adjustments,
+ensuring that username, password, and email
+appear in bold letters after implementing these
+changes. Next, we'll incorporate some buttons into
+the form. Here, we'll include four buttons, "off",
+"submit", "name", set to "submit", and a button labeled "signup".
+This completes our form. Following the form, we'll add another element,
+a div with a class named "container". Within this div, we'll display our UI data.
+To do this, we'll use "ahref" code for "users",
+and another "ahref" with "logout" as the name,
+linking to "users.php" and "logout.php"
+respectively, both within a footer.btn class.
+With this, our form is complete. Upon saving it, the form should look something
+like this. Additionally, I will create a CSS folder
+and an associated style.css file to handle all the styling.
+While I won't delve into explaining all the CSS details here, I've outlined my approach
+to setting up the user interface. Accessing
+all these resources should be straightforward once I provide the source code. 
+
+Module 7.3 - Establish Form Connection With DB
+
+So, my database has been created. Now we will
+connect to the database and start working with the store where we added our name. I
+want to add it to the user data. You'll notice
+that I use the name "data" for the database.
+I'll change the name, but if we don't change
+it we'll get an error. We'll also add the data for names, passwords and emails. We'll
+count the values, starting with the username
+in lowercase, followed by the password and
+email. After saving it, we won't submit it directly. Instead, we'll echo to check if
+the form is working properly. Now we can see that our data is echoing.
+For example, if I enter the name "John", a
+random password and the email "abc@gmail.com",
+we'll exit the code after receiving it. As soon as I sign up, the code works properly.
+We'll include an "if else" statement. If the
+condition $result used for creating a connection
+in our database configuration file runs successfully,
+we'll submit the data and receive a notification
+that it's been submitted properly. We'll use the "if" statement and first we'll
+execute the $sql code. Now we will use an "if" statement, adding the
+"result" parameter. Within this statement we
+will echo "user has been created". Additionally,
+we'll handle errors by including an "else" statement. However, this statement has no
+effect because it triggers an error when no
+input is provided. After saving, we'll access
+our local host and upon refreshing, a syntax
+error will appear on line 9 due to the absence
+of our query. We have not credited it and the
+error persists. To resolve this, we will resubmit
+the form using "pyman" as the name, a random
+number as the password and "pyman144@gmail.com"
+as the email. Now, if my phone is corrected, after signing
+up, we encounter another error. This occurs because I intentionally omitted the code to
+demonstrate the error. Consequently, we see the message "data.userdata does not exist"
+since we fail to update the database file's data to "userdata". After saving, we'll
+revisit the browser and the error will have
+disappeared, replaced by "user has been created".
+Upon checking our database, we'll observe that the username, password and email have
+been successfully added, confirming that our database is functioning correctly. 
+
+
+
+
+Module 7.4 - Submitting Form in DB
+
+
+
+
+
+Module 7.5 - User's Data
+
+
+
+
+
+Module 7.6 - Updating Users
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
