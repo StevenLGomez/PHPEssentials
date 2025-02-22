@@ -3,7 +3,7 @@
 include("config/database.php");
 
     $sql = "SELECT * FROM userdata";
-    //$result = conn->query($sql);
+    $result = conn->query($sql);
 ?>
 
 <!DOCTYPE html>
