@@ -1,0 +1,4 @@
+
+# Ignore SlickEdit history files
+*.vpwh*
+
