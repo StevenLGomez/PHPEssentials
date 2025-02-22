@@ -4,7 +4,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "phptutorials";
+$dbname = "userdb";
 
 $conn = new mysqlI($servername, $username, $password, $dbname);
 
