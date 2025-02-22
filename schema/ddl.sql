@@ -1,0 +1,9 @@
+
+DROP TABLE IF EXISTS users;
+CREATE TABLE users(
+    id INTEGER NOT NULL AUTO_INCREMENT,
+    username VARCHAR(50),
+    password VARCHAR(50),
+    PRIMARY KEY (id)
+    ) DEFAULT CHARACTER SET utf8 ENGINE=InnoDB;
+
