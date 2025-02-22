@@ -2236,14 +2236,94 @@ disappeared, replaced by "user has been created".
 Upon checking our database, we'll observe that the username, password and email have
 been successfully added, confirming that our database is functioning correctly. 
 
-
-
-
 Module 7.4 - Submitting Form in DB
 
-
-
-
+In the last lecture, we created our database
+and added and deleted data using GET requests.
+In this lecture, we'll explore a new
+functionality related to updating or editing data.
+For instance, on our local host, we've added a
+random password and now we have a user associated with our piman.
+I'll demonstrate how to display this data
+along with the recently entered information.
+Next, we'll discuss how to update the database.
+First, we'll add more databases like the
+Steve database and create another user named John with their credentials.
+When we navigate to our database, we can see all the users.
+To achieve this, we'll dive into the code.
+We'll create a button for viewing the users we've created.
+Viewing this button will display all the registered users in our form.
+To implement this, we'll create a new file with a simple table format.
+In this table, we'll include columns for
+usernames, passwords and an edit option that
+we recently added to our ads user functionality.
+Currently, some data is displaying, but it doesn't match the data in our database.
+This is because we manually entered the data
+here, which we want to retrieve from our database.
+To resolve this, we'll use PHP.
+We'll include our database by configuring database.php to establish a connection.
+Then we'll run a simple query to ensure our database connection is working correctly.
+Here we will use SQL to select our database, which is named user data.
+We'll declare our result variable after establishing a reverse connection.
+Now with our query completed using $SQL, we encounter an issue.
+We don't have any users.
+This is because we need to dynamically code our users.
+I've added three elements, username, password and email.
+These correspond to the form categories I've created.
+First I'll add the username using PHP.
+Then I'll echo my row, incorporating the username.
+I'll copy this code and modify the words username,
+password and email in the subsequent code sections.
+Upon saving, an error arises, necessitating a
+loop since the row variable lacks declaration.
+We will implement a while loop here.
+Within this loop, we'll declare the variables
+mySQL_fetch to fetch our data and include the query related result.
+Subsequently we'll insert our TR code, ensuring it operates within the PHP context.
+Lastly, I'll relocate the TR code into our PHP section.
+Sometimes it can become incorrect due to the extension I use.
+Here I've fixed the formatting and now let's do something else.
+We'll run an if-else statement.
+If I don't get data from my database, I'll encounter an error.
+To handle this, we'll place the if-else statement before the while loop.
+In the if statement, we'll check if the result
+value from running the query, NURM_ROWS is greater than zero.
+The while loop will now be inside this if statement.
+On the other hand, if the statement doesn't run, we'll handle the error using PHP.
+Here I'll implement an else statement.
+Inside it, we'll echo a TR tag with the TD containing the message "no record found".
+We'll set the call span to 4.
+You might notice an error here.
+It's because there's a mistake in closing the brackets.
+So we'll fix that by closing the brackets correctly.
+After refreshing the page, you'll see an error on line number 4.
+However, the main error is on line 60.
+I missed adding a semicolon in the code.
+After refreshing the code in the browser, some issues still persist.
+The primary issue is with the integer 4.
+I mistakenly used double inverted commas instead
+of single inverted commas within this interval.
+Now if I make this correction and run it in the browser, all
+details from the database are displayed in our users tab.
+Now this is how we use the get tab functionality
+through this PHP method using mySQLI_FETCH_ASSOC.
+This allows us to retrieve our data.
+However, the main purpose of this lecture is to
+explain what happens when we click on the edit button.
+Currently, clicking on the edit button doesn't
+do anything because it lacks an HREF tag.
+If I add this tag, it starts functioning as a button.
+However, clicking the button still doesn't
+perform any action because we need to create
+another file named edit-user.php for it to work.
+I've now created this file.
+When I click on the edit button, it redirects
+me to the edit user page in my browser.
+Here I see the same information related to
+the users details and there's also an update button.
+The functionality for updating user data will be discussed in the next lecture.
+As this lecture has already become quite lengthy.
+So we will conclude it here. 
 
 Module 7.5 - User's Data
 
