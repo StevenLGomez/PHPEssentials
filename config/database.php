@@ -4,7 +4,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "userdb";
+$dbname = "userdata";
 
 $conn = new mysqlI($servername, $username, $password, $dbname);
 
@@ -16,5 +16,4 @@ if($conn->connect_error)
 echo "We are connected";
 
 ?>
-
 
