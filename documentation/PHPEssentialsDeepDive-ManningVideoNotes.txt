@@ -2327,13 +2327,333 @@ So we will conclude it here.
 
 Module 7.5 - User's Data
 
-
-
-
+In our previous lecture, we learned how to
+add user data to a table. I have successfully
+implemented this and all the data is displayed here.
+Now our main goal is to enable data editing for users. When a user has added their data
+and wishes to make changes, they should find
+their details pre-filled. This means that
+when I use this page, my email, username and
+password should automatically populate, allowing
+me to make changes and update my data in the Users tab.
+To achieve this, we need to make some modifications
+in our VS code. We will navigate to the location
+where we have used our edit-user.php file. I will add a question Mark to the URL. This
+will help us identify the edit button's ID. I
+will then echo the dollar sign R-O-W containing
+the ID. Now, when I go to my Users tab in the browser and click on the edit button,
+you can see that the ID equals 7 is displayed
+in the URL below because I edited user number
+7. Similarly, if I edit user 6, I will get ID
+equals 6 in the URL. And for the last user,
+I will get ID equals 8. This demonstrates how
+we can identify and call the ID for editing.
+Now let's move on to the update process in our edit file. We will update our database
+by first establishing a connection with our
+database using include open bracket quotation
+config forward slash database dot php quotation
+close bracket. Inside, we will implement an
+if statement with ISSET to use the GET method.
+We use GET because we want to retrieve data
+from the database, specifically the data associated
+with the ID. So our SQL query will look like
+this. Single quotation, single quotation,
+single quotation, PHP dollar sign SQL equals
+quotation select star from user data where ID
+equals quotation dot dollar sign underscore
+GET open square brackets, single quotation ID, single quotation, close square bracket,
+semi colon, single quotation, single quotation,
+single quotation. This code will automatically
+populate the relevant information. We will also execute a query named result using the
+established connection. Then we will run SQL
+and our user data will be fetched using my
+SQL underscore fetch underscore a SSOC. If
+you can't hear baby was the variable for the
+result. And now this is our if statement. Next, we will create our else statement. In
+the else statement, if our statement is not
+running properly, we will retrieve an invalid
+request error. To handle this, we will use the exit button. So our work here is done.
+The method I used here is necessary to retrieve
+our data, you will check if our UI is functioning
+correctly. In this case, we will quote our ID, which is shown as number seven. Here,
+I will simply echo this statement to ensure that
+our statement is working properly. Consequently,
+we can observe that we are selecting data from the user where ID equals seven. This
+indicates that all the data we manipulate
+here is updated in the browser. The next step
+is data retrieval. For that, we will add our
+value and code it in PHP. First of all, I
+will echo the user. And within the user, we have the username, we will do the same for
+the password and email fields, simply by changing
+the names. The function I've used to fetch
+all my data will be called from here. Now, let's check if our data is being properly
+fetched. Here, we notice a small error in the code, we'll proceed by opening our web
+browser and refreshing it. Next, we'll revisit
+the relevant button. I'll ensure that the
+page is running smoothly. To do this, I'll return to the edit page. Up until now, the
+edit page has been functioning correctly.
+However, we need to understand how to update
+our data. To achieve this, we'll return to VS code, open the add user dot PHP file and
+copy the entire if statement from there. Then
+we'll paste and modify it in our edit user
+page. We'll make adjustments to our SQL codes
+to update our user data, setting the username
+as dollar sign username and the password as dollar sign password. Additionally, we'll
+handle the email assigning it the value of
+dollar sign email. To ensure data integrity,
+we'll use a where clause. Without it, all of our data could be inadvertently modified
+or deleted. As previously explained in our last lecture, not using a where clause may
+result in unintended consequences. I've incorporated
+the ID into the if statement, displaying user
+has been updated in case of success and invalid
+request in the else statement. The rest of
+our workflow remains unchanged. Let's return
+to our web browser. You'll notice that there's
+no need to echo. Now we're back in the browser
+and I'll input the name as Joan while also
+updating the email. As soon as I update it, I'll remove the invalid request error. Why
+is this error appearing? It's because today
+we'll be using our ID in the edit hyphen user
+dot PHP table. Then we'll echo our GT method.
+Next, I'll echo the update part and we'll
+revisit our edit page. When we update it, we encounter the invalid request option. To
+resolve this, I'll change the name to John,
+use a random password and input John's email.
+After updating the user data reflects user
+has been updated. I'll remove the SQL update
+echo and revisit the edit page where the data
+is updated. Going to my users, I see John
+listed editing it again in my PHP, my admin,
+my change data appears and I can update it
+to change another user's ID. I'll switch it to Steve with a random password and mail
+updates and see user has been updated after refreshing. This is how we update data for
+adding a user. I can create a separate button
+on the edit user page, making the submission
+form functional. This demonstrates how to
+update data and create user IDs in a PHP project
+connected to a database as part of our simple
+project where we learn how to create a basic form and utilize GT and POST methods. 
 
 Module 7.6 - Updating Users
 
-
+So, this is our second project starting in this course. In this project, I've created
+a college form. Before we start this project,
+I'd like to declare one thing. In this project,
+I've used a similar concept as the one I used
+in our last project. For this, I already created
+some fields like name, age, gender, email,
+phone number, etc. as you can see on the screen.
+We will get data and some information from these fields.
+Now if we go to VS Code, I already entered a short code in it apart from this. If we
+come to style.css, I already entered full CSS
+in it. Now we will just create our database.
+To create database, we will go to browser
+and write localhost/phpmyadmin and press the
+enter button. Now you can see it has opened on localhost. It will only be opened when
+your localhost is running. Now if we go to
+our localhost by opening xampp control panel
+and stop MySQL. Now if we open the browser and
+refresh it, then not result will be displayed.
+An error will occur that this site can't be
+reached. It is not showing any result because
+we stopped our server which is necessary for
+running our site properly. Now we will create
+a database. Let's suppose we give it the name
+full form and now we will click on the create
+button. The next page will open. Now we will
+write a table name the same as above which
+is full form. And we will use 8 columns for now and click on create button. Now we have
+got some columns and we will submit our data
+here. Ok so in this page we will have to define
+the type for the columns. First of all we will write serial number and it will be in
+integer, its length will be 10. Leave the rest
+of the things at default. But clicking the A underscore I box it means serial number
+will be automatically generated whenever new
+user login in our site. Now we will use name, it
+will be in text and we will choose 250 digits.
+Now in the next column we will use age and it will be in integer as well and we will
+choose 10 digits which is actually its length.
+After this we will use gender for the next
+column. It will be in var char and its length
+will be 20. Now we will use email, it will
+be in var char, its length will be 22. Now we will use number, it will be in integer,
+its length will be 11. Now we will add description,
+it will be in normal text, its length will
+be 250. Now we will use data, it will be in integer and then choose current time run.
+Now it will save. And the table of database will appear as you can see on the screen.
+Now we will check if the database is working
+or not by inserting data. For this purpose
+we will go to insert an add serial number in
+it and we will insert more data. For example
+name John Allen. We will choose gender, male,
+we will choose age, 35. We will use random
+email for example abc@gmail.com. We will use
+random phone number for example +92, 312, 345,
+6789. If you have an issue then use less than 12
+digits. For now we will not write any description,
+we will write NA in the insert box. After
+this you can choose the data and time format.
+Different options are given. Now we will click
+on the go button. Now a query will appear
+and this is very important to copy it. Everything
+we inserted before by clicking on the go button
+is appearing in this query as you can see on the screen. We will discuss about other
+queries in this page later. Now we will go to the structure and then go to browser and
+you can see that name, age, email description,
+phone number, date and time everything is
+displaying here. So it means simple database
+is created and it is working properly. We
+actually need that query which we have already
+copied. Now we will go to file, index.html
+and paste the query here. We already discussed
+about why we use index. We know that the first
+page searched on Google is index. Now we will go
+to actions in index.html file and add index.php.
+Then we will choose the method post because we want to post all things in our server.
+After doing this we will go to index.php and
+we will make some variables here. We will
+use server and call local host. You have domain
+then you can use it here. Now we will call
+user and password. Password will be blank. This
+information is the one of your own session.
+We will use my SQL connect. You have to use
+underscore between my SQL and connect otherwise
+it will cause an error. Now we will call user,
+pass and server in information. This will
+make the connection between your database and
+your program. We will also use if statement
+and add not in it and call the info variable.
+It means if the connection fails, for example
+user submit data and server didn't respond then we have to give some kind of alert to
+the user. For now we will print the alert
+statement. The connection is not done successfully.
+And then we use concatenation to add my SQL underscore connect underscore error. Now we
+will use echo to print statement if everything
+is done successfully. The code of the above
+variables is the following. Left arrow question
+Mark, PHP. Dollar sign server equals quotation
+local host quotation semicolon. Dollar sign
+user equals quotation root quotation semicolon.
+Dollar sign pass equals quotation quotation
+semicolon. Dollar sign info equals my SQL underscore connect.
+Bracket dollar sign server comma dollar sign
+user comma dollar sign pass brackets semicolon.
+If open bracket exclamation Mark dollar sign
+info close bracket open curly brackets die open brackets quotation connection is not
+done successfully quotation full stop. My SQL
+underscore connect underscore error open brackets
+close brackets close brackets close curly
+brackets echo quotation form submitted successfully
+quotation question Mark right arrow. Now we
+will save the code and go to form to see if our code is working or not. We will go to
+the browser where our form is opened and then
+we will click on submit button. Now we can
+see that form submitted successfully is displayed
+in the browser. It means our code is working
+properly. Now our form is complete because we got everything we expected from it. But
+now we want to add queries in it. Now I will
+tell you how we will add queries. But before
+that I want to tell you that if you write
+the wrong server's name it will cause error.
+For example you write local hosts instead
+of local host. It is just a spelling mistake
+but the error will occur by this minor mistake.
+We will also add current timestamp in the
+query code that we have copied. Now we will use echo and call dollar sign my SQL. Now
+we will save the codes and go to browser browser
+is displaying the result and some errors as
+well. Actually the error occurred because it didn't use dollar signs in query code.
+If we use dollar sign the error will be removed
+and the browser will show the result without
+any error. We are still facing error because
+we use capital letters while making variables.
+Now we will use small letters in all variables
+we made and then refresh the browser. All
+errors will be removed and the browser will show the result without error. Remember one
+thing we use small letters in query codes because we are using small letters in the
+form. Now you can see all the errors are removed.
+Now we will go to form and check if our data
+is submitting or not. For this purpose we will fill in the form by using random data.
+For example name stark age 35 gender male
+email abc at gmail dot com phone number plus
+nine two three six eight six four four seven
+seven four description n a. Now we will click
+on the submit button. The browser is displaying
+to us all the details of the values we entered
+in the form. It means our data seems to be
+submitted successfully. But now we want this
+information directly submitted into the database
+without appearing in the browser. For this
+purpose we will go to VSCode and we will make
+an if statement. We will also use an object
+operator and then we will attach query and then we will call my SQL and then make it
+equal to true for the sake of running the function properly. We will also use echo to
+print a statement and we will also add an else statement and then we will close it.
+We already discussed in previous lectures what the else statement is. The code is the
+following one for running above statements and functions. Quotation if open brackets
+dollar sign info hyphen right arrow query open
+brackets dollar sign my SQL close brackets
+equals equals true close brackets open curly
+brackets echo quotation form submitted successfully
+quotation close curly bracket else open curly
+brackets echo quotation error semicolon my
+SQL left arrow B R right arrow dollar sign info
+hyphen right arrow error quotation semicolon
+close curly bracket dollar sign info hyphen
+right arrow close open bracket close bracket
+semicolon. After doing all of this we will go to index dot HTML and copy the full HTML
+and paste it at the bottom of the PHP. It means
+we pasted it just below the close tag. Now
+we will run the if statement in index dot PHP
+and in condition we will use keyword ISSET
+use dollar sign post and then use name. It
+means the code will run if someone posts their
+name so the name is mandatory to enter information
+in the form. Otherwise the code will not run
+nothing will be stored in the database. The
+code is the following if open brackets ISSET
+open bracket dollar sign post open square
+brackets single quotation name single quotation
+close square brackets close brackets close brackets. Now we will go to the browser and
+we will enter random data name Tony age 25 gender male email abc@gmail.com number plus
+nine two one three five seven five two description
+and a now we will submit the data we are facing
+an issue because our data are not submitted in local host. Let me check the code again
+after checking the code I fix the error. Now
+I hope the code will run properly again we
+will add random data for example name Josh age 30 gender male email Josh at gmail dot
+com phone number nine two one two six two six one five description and a now we will
+click submit button before submitting. I want to
+tell you that don't forget to comment following
+code if open brackets dollar sign info hyphen
+right arrow query open brackets dollar sign
+my SQL close brackets equals equals true close
+brackets. If you don't comment this the code
+will not run properly. Now when we will click
+the submit button our data is submitted to
+confirm that the data is submitted or not we will go to local host and you can see it
+is showing the details we submit it. It means
+details are submitted in the local host property.
+I will provide you this code after this lecture.
+You can use this code and you can also make
+some customization if you want. Now we will
+not fill full form and submit it for example
+we just write name Tony Stark age 25 and submit
+it. Now only name and age will be submitted
+to local hosts as you can see on the screen.
+You can also expect data from local host.
+We will go to export and give the target name.
+For now we will give target name full form
+then you will choose format. You can choose any
+format choose the format that you understand
+the most. I will choose CSV format and then I will click on the export button. Now it
+will be downloaded in our system in the form
+of Excel. I will open the file see we can
+see all the data that was in our database. That was a big success. OK that's the end
+of the project. You saw many topics that we
+learned during the course. I hope everything
+is clear for you. If you have a doubt don't hesitate to check the course again. The key
+to success in PHP is the practice. Good luck. 
 
 
 
