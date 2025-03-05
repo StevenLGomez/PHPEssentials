@@ -2171,6 +2171,7 @@ password". The name for this input will be "password"
 and we'll Mark it as "required". Moving on, we'll add another label where
 we'll copy and paste "for" to indicate the email time with "email enclosed in inverted
 commas". We'll configure everything accordingly.
+
 Now, with the browser in play, we have username,
 password, and email fields functioning correctly.
 First, we'll insert line breaks in the code,
@@ -2432,7 +2433,7 @@ on the edit user page, making the submission
 form functional. This demonstrates how to
 update data and create user IDs in a PHP project
 connected to a database as part of our simple
-project where we learn how to create a basic form and utilize GT and POST methods. 
+project where we learn how to create a basic form and utilize GET and POST methods. 
 
 Module 7.6 - Updating Users
 
@@ -2446,7 +2447,9 @@ phone number, etc. as you can see on the screen.
 We will get data and some information from these fields.
 Now if we go to VS Code, I already entered a short code in it apart from this. If we
 come to style.css, I already entered full CSS
-in it. Now we will just create our database.
+in it. 
+
+Now we will just create our database.
 To create database, we will go to browser
 and write localhost/phpmyadmin and press the
 enter button. Now you can see it has opened on localhost. It will only be opened when
@@ -2654,6 +2657,37 @@ of the project. You saw many topics that we
 learned during the course. I hope everything
 is clear for you. If you have a doubt don't hesitate to check the course again. The key
 to success in PHP is the practice. Good luck. 
+
+Module 8.1 - Conclusion
+
+So, this is our last lecture in this course where
+we'll conclude what we've learnt throughout.
+In PHP, I covered the basics first, which
+included data types, operators, loop statements
+and arrays. I explained these topics in detail
+and demonstrated their practical use. I emphasised
+arrays and their methods extensively because
+the data we mostly receive on our backend
+is in the form of arrays. I created two projects
+that included all the concepts I explained
+throughout the course. For example, I initially
+explained the basics of the POST and GET methods
+and later utilised them as advanced methods
+in one of the projects. If you want to explore
+PHP topics further, you can learn many more things. In programming, the first step is
+often to learn any concept at the basic level
+and then apply it at an advanced level. If
+you want to elevate your skills to an advanced
+level, it is a good idea to create small projects.
+Create a project that incorporates trending
+concepts. In programming, when you learn something,
+it doesn't mean you should stop learning. The next step is to take that knowledge to
+an advanced level because the IT field is constantly evolving and you always need to
+keep learning something new. In the field
+of programming, it's the developers who keep
+learning and exploring that ultimately find
+success. Alright guys, so this marks the end
+of the course. Keep learning and keep exploring. 
 
 
 
