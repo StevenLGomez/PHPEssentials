@@ -9,8 +9,7 @@ if(isset($_POST['submit'])){
     VALUES
     ('$username', '$password', '$email')";
 
-    $result = conn->query($sql);
-//    $result = 0;
+    $result = $conn->query($sql);
     if ($result)
     {
         echo "User has been created";
@@ -54,7 +53,7 @@ if(isset($_POST['submit'])){
         </div>
         </form>
         <div class="container">
-            <a href="users.php" class="footerbtn">Users</a>
+            <a href="user.php" class="footerbtn">Users</a>
 
             <a href="logout.php" class="footerbtn">Log out</a>
         </div>
