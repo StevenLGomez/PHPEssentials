@@ -1,4 +1,5 @@
 
 # Ignore SlickEdit history files
+*.vtg
 *.vpwh*
 

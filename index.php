@@ -1,4 +1,44 @@
 
+<?php
+
+$server = "localhost";
+$user = "root";
+$pass = "";
+
+$info = mysqli_connect($server, $user, $pass);
+
+if (! $info)
+{
+    die("connection is not done successfully: " . mysqli_connect_error() );
+}
+// echo "Form Submitted Successfully";
+
+$Name = $_POST['Name'];
+$Gender = $_POST['Gender'];
+$Age = $_POST['Age'];
+$Email = $_POST['Email'];
+$Phone = $_POST['Phone'];
+$Description = $_POST['Description'];
+
+$mysql = "INSERT INTO fullform (Name, Gender, Age, Email, Phone, Description, Date) VALUES
+('$Name', '$Gender', '$Age' '$Email', '$Phone', '$Description', current_timestamp())";
+
+// echo $mysql;
+
+// if($info->query($mysql) == true){
+//     echo "Form Submitted Successfully";
+// }
+// else {
+//    echo "ERROR: $mysql <br /> $info->error()";
+// }
+// $info->close();
+
+if ($_POST['Name'])
+{
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,3 +68,8 @@
 
 </body>
 </html>
+
+
+
+
+
